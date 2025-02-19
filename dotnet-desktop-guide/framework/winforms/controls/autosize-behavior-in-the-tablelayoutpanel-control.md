@@ -1,5 +1,6 @@
 ---
 title: "AutoSize Behavior in the TableLayoutPanel Control"
+description: Learn more about how to autosize behavior in the TableLayoutPanel control in Windows Forms, which supports automatic sizing behavior in two ways.
 ms.date: "03/30/2017"
 ms.topic: overview
 helpviewer_keywords: 
@@ -14,7 +15,9 @@ helpviewer_keywords:
 ms.assetid: 9233e0c3-2fa6-405e-8701-959479b1250e
 ---
 # AutoSize Behavior in the TableLayoutPanel Control
+
 ## Distinct AutoSize Behaviors  
+
  The <xref:System.Windows.Forms.TableLayoutPanel> control supports automatic sizing behavior in the following ways:  
   
 - Through the <xref:System.Windows.Forms.Control.AutoSize%2A> property;  
@@ -22,6 +25,7 @@ ms.assetid: 9233e0c3-2fa6-405e-8701-959479b1250e
 - Through the <xref:System.Windows.Forms.TableLayoutStyle.SizeType%2A> property on the <xref:System.Windows.Forms.TableLayoutPanel> control’s column and row styles.  
   
 ### The AutoSize Property with Row and Column Styles  
+
  The following table describes the interaction between the <xref:System.Windows.Forms.Control.AutoSize%2A> property and the <xref:System.Windows.Forms.TableLayoutPanel> control’s column and row styles.  
   
 |AutoSize setting|Style interaction|  

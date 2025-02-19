@@ -1,5 +1,6 @@
 ---
 title: "Performance"
+description: Learn how to achieve optimal application performance in application design as well as get an understanding of best practices for WPF applications.
 ms.date: "03/30/2017"
 helpviewer_keywords: 
   - "Windows Presentation Foundation [WPF], performance"
@@ -8,14 +9,17 @@ helpviewer_keywords:
 ms.assetid: c649a20f-8b7e-4a38-9b80-74839298d406
 ---
 # Performance
-Achieving optimal application performance requires forethought in application design and an understanding of best practices for WPF applications.  
+
+Achieving optimal application performance requires forethought in application design and an understanding of best practices for Windows Presentation Foundation (WPF) application development. The topics in this section provide additional information on building high performance WPF applications.  
   
 ## In This Section  
+
  [Graphics Rendering Tiers](graphics-rendering-tiers.md)  
  [Optimizing WPF Application Performance](optimizing-wpf-application-performance.md)  
  [Walkthrough: Caching Application Data in a WPF Application](walkthrough-caching-application-data-in-a-wpf-application.md)  
   
 ## Reference  
+
  <xref:System.Windows.Media.RenderCapability>  
   
  <xref:System.Windows.Media.RenderCapability.Tier%2A>  

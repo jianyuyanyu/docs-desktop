@@ -1,7 +1,8 @@
 ---
 title: "How to create a custom routed event"
 description: Learn how to implement a custom routed event for an element in Windows Presentation Foundation (WPF).
-ms.date: "02/02/2022"
+ms.date: 10/24/2024
+ms.custom: update-template
 dev_langs:
   - "csharp"
   - "vb"
@@ -14,8 +15,6 @@ helpviewer_keywords:
 # How to create a custom routed event (WPF .NET)
 
 Windows Presentation Foundation (WPF) application developers and component authors can create custom routed events to extend the functionality of common language runtime (CLR) events. For information on routed event capabilities, see [Why use routed events](routed-events-overview.md#why-use-routed-events). This article covers the basics of creating a custom routed event.
-
-[!INCLUDE [desktop guide under construction](../../includes/desktop-guide-preview-note.md)]
 
 ## Prerequisites
 

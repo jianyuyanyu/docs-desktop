@@ -1,7 +1,8 @@
 ---
 title: "XAML loading and dependency properties"
 description: "Learn about Extensible Application Markup Language (XAML) loading of dependency property in Windows Presentation Foundation (WPF)."
-ms.date: "12/22/2021"
+ms.date: 10/24/2024
+ms.custom: update-template
 dev_langs:
   - "csharp"
   - "vb"
@@ -15,8 +16,6 @@ helpviewer_keywords:
 # XAML loading and dependency properties (WPF .NET)
 
 The Windows Presentation Foundation (WPF) implementation of its Extensible Application Markup Language (XAML) processor is inherently dependency property aware. As such, the XAML processor uses WPF property system methods to load XAML and process dependency property attributes, and entirely bypasses dependency property wrappers by using WPF property system methods like <xref:System.Windows.DependencyObject.GetValue%2A> and <xref:System.Windows.DependencyObject.SetValue%2A>. So, if you add custom logic to the property wrapper of your custom dependency property, it won't be called by the XAML processor when a property value is set in XAML.
-
-[!INCLUDE [desktop guide under construction](../../includes/desktop-guide-preview-note.md)]
 
 ## Prerequisites
 

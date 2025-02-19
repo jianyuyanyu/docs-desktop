@@ -3,7 +3,8 @@ title: How to bind to an enumeration
 description: Learn how to use data binding to bind an enumeration to a collection object in XAML and in code for Windows Presentation Foundation.
 author: adegeo
 ms.author: adegeo
-ms.date: 04/30/2021
+ms.date: 10/22/2024
+ms.custom: update-template
 dev_langs:
   - "csharp"
   - "vb"
@@ -19,11 +20,9 @@ This example shows how to bind to an enumeration. Unfortunately there isn't a di
 
 The <xref:System.Windows.Data.ObjectDataProvider> type provides a convenient way to create an object in XAML and use it as a data source.
 
-[!INCLUDE [desktop guide under construction](../../includes/desktop-guide-preview-note.md)]
-
 ## Reference the enumeration
 
-Use the <xref:System.Windows.Data.ObjectDataProvider> type to wrap an array of enumeration values provided by the enumeration type itself.
+Use the <xref:System.Windows.Data.ObjectDataProvider> type to wrap an array of enumeration values provided by the enumeration type itself. The following steps wrap a <xref:System.Windows.HorizontalAlignment> enumeration. You can substitute a different enumeration if desired.
 
 01. Create a new `ObjectDataProvider` as a XAML resource, either in your application XAML or the XAML of the object you're working with. This example uses a window and creates the `ObjectDataProvider` with a resource key of `EnumDataSource`.
 

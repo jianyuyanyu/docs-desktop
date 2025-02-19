@@ -1,7 +1,8 @@
 ---
 title: Visual Basic and WPF event handling
 description: Learn how to attach handlers to Windows Presentation Foundation (WPF) routed events in Visual Basic.
-ms.date: "02/25/2022"
+ms.date: 10/24/2024
+ms.custom: update-template
 helpviewer_keywords:
   - "Visual Basic [WPF], event handlers"
   - "event handlers [WPF], Visual Basic"
@@ -11,8 +12,6 @@ helpviewer_keywords:
 # Visual Basic and WPF event handling (WPF .NET)
 
 If you're coding in Visual Basic .NET, you can use the language-specific [Handles](/dotnet/visual-basic/language-reference/statements/handles-clause) keyword to attach an event handler to an object. The object can be an instance in code-behind or an element in Extensible Application Markup Language (XAML). `Handles` can be used to assign event handlers for common language runtime (CLR) events or Windows Presentation Foundation (WPF) [routed events](routed-events-overview.md). However, `Handles` has some usage [limitations](#limitations) when used to attach event handlers for routed events.
-
-[!INCLUDE [desktop guide under construction](../../includes/desktop-guide-preview-note.md)]
 
 ## Prerequisites
 

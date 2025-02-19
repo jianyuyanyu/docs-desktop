@@ -1,5 +1,6 @@
 ---
 title: "How to: Play a System Sound from a Windows Form"
+description: Learn about how to play a system sound from a Windows Form by means of Visual Basic and C# code examples.
 ms.date: "03/30/2017"
 dev_langs: 
   - "csharp"
@@ -15,6 +16,7 @@ helpviewer_keywords:
 ms.assetid: afb206ff-4824-4804-a8d4-185bf5ad8e7c
 ---
 # How to: Play a System Sound from a Windows Form
+
 The following code example plays the `Exclamation` system sound at run time. For more information about system sounds, see <xref:System.Media.SystemSounds>.  
   
 ## Example  
@@ -33,6 +35,7 @@ public void playExclamation()
 ```  
   
 ## Compiling the Code  
+
  This example requires:  
   
 - A reference to the <xref:System.Media?displayProperty=nameWithType> namespace.  

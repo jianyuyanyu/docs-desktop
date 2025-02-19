@@ -1,5 +1,6 @@
 ---
 title: "How to: Clear Bindings"
+description: Learn how to use ClearBinding to remove a binding from an individual property on an object in Windows Presentation Foundation (WPF).
 ms.date: "03/30/2017"
 dev_langs: 
   - "csharp"
@@ -11,9 +12,11 @@ helpviewer_keywords:
 ms.assetid: 73962a93-32a9-4bcd-9240-bcfbb239093a
 ---
 # How to: Clear Bindings
+
 This example shows how to clear bindings from an object.  
   
 ## Example  
+
  To clear a binding from an individual property on an object, call <xref:System.Windows.Data.BindingOperations.ClearBinding%2A> as shown in the following example. The following example removes the binding from the <xref:System.Windows.Controls.TextBlock.TextProperty> of *mytext*, a <xref:System.Windows.Controls.TextBlock> object.  
   
  [!code-csharp[CodeOnlyBinding#ClearBinding](~/samples/snippets/csharp/VS_Snippets_Wpf/CodeOnlyBinding/CSharp/binding.cs#clearbinding)]

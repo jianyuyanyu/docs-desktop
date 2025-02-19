@@ -1,5 +1,6 @@
 ---
 title: "How to: Apply a Transform to a BitmapImage"
+description: Learn how to apply a Transform to a BitmapImage using Extensible Application Markup Language (XAML) in Windows Presentation Foundation (WPF).
 ms.date: "03/30/2017"
 dev_langs: 
   - "csharp"
@@ -10,9 +11,11 @@ helpviewer_keywords:
 ms.assetid: 5c042f8d-d569-45e4-ab32-868b89759bf2
 ---
 # How to: Apply a Transform to a BitmapImage
+
 This example demonstrates how to apply a <xref:System.Windows.Media.Transform> to a <xref:System.Windows.Media.Imaging.BitmapImage>.  
   
 ## Example  
+
  [!code-csharp[ImagingSnippetGallery_procedural_snip#TransformedBitmapInline1](~/samples/snippets/csharp/VS_Snippets_Wpf/ImagingSnippetGallery_procedural_snip/CSharp/TransformedBitmapExample.cs#transformedbitmapinline1)]
  [!code-vb[ImagingSnippetGallery_procedural_snip#TransformedBitmapInline1](~/samples/snippets/visualbasic/VS_Snippets_Wpf/ImagingSnippetGallery_procedural_snip/VB/TransformedBitmapExample.vb#transformedbitmapinline1)]  
   

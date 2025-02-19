@@ -1,16 +1,17 @@
 ---
 title: Binding sources overview
 description: Discover the types of objects you can use as the binding source for your applications in Windows Presentation Foundation (WPF).
-ms.date: 04/28/2021
+ms.date: 10/22/2024
 author: adegeo
 ms.author: adegeo
+ms.custom: update-template
 helpviewer_keywords:
   - "binding data [WPF], binding sources"
   - "data binding [WPF], binding source"
   - "binding sources [WPF]"
 ---
 
-# Binding sources overview (WPF .NET)
+# What are Binding sources? (WPF .NET)
 
 In data binding, the binding source object refers to the object you obtain data from. This article discusses the types of objects you can use as the binding source, like .NET CLR objects, XML, and <xref:System.Windows.DependencyObject> objects.
 
@@ -26,7 +27,7 @@ Windows Presentation Foundation (WPF) data binding supports the following bindin
 
 - **Dynamic objects**
 
-  You can bind to available properties and indexers of an object that implements the <xref:System.Dynamic.IDynamicMetaObjectProvider> interface. If you can access the member in code, you can bind to it. For example, if a dynamic object enables you to access a member in code via `someObjet.AProperty`, you can bind to it by setting the binding path to `AProperty`.
+  You can bind to available properties and indexers of an object that implements the <xref:System.Dynamic.IDynamicMetaObjectProvider> interface. If you can access the member in code, you can bind to it. For example, if a dynamic object enables you to access a member in code via `SomeObject.AProperty`, you can bind to it by setting the binding path to `AProperty`.
 
 - **ADO.NET objects**
 
@@ -52,13 +53,13 @@ If you're using either <xref:System.Windows.Data.BindingMode.OneWay> or <xref:Sy
 
 There are two ways to notify a subscriber of a property change:
 
-01. Implement the <xref:System.ComponentModel.INotifyPropertyChanged> interface.
+- Implement the <xref:System.ComponentModel.INotifyPropertyChanged> interface.
 
-    This is the recommended mechanism for notifications. The <xref:System.ComponentModel.INotifyPropertyChanged> supplies the <xref:System.ComponentModel.INotifyPropertyChanged.PropertyChanged> event, which the binding system respects. By raising this event, and providing the name of the property that changed, you'll notify a binding target of the change.
+  This is the recommended mechanism for notifications. The <xref:System.ComponentModel.INotifyPropertyChanged> supplies the <xref:System.ComponentModel.INotifyPropertyChanged.PropertyChanged> event, which the binding system respects. By raising this event, and providing the name of the property that changed, you'll notify a binding target of the change.
 
-01. Implement the `PropertyChanged` pattern.
+- Implement the `PropertyChanged` pattern.
 
-    Each property that needs to notify a binding target that it's changed, has a corresponding `PropertyNameChanged` event, where `PropertyName` is the name of the property. You raise the event every time the property changes.
+  Each property that needs to notify a binding target that it's changed, has a corresponding `PropertyNameChanged` event, where `PropertyName` is the name of the property. You raise the event every time the property changes.
 
 If your binding source implements one of these notification mechanisms, target updates happen automatically. If for any reason your binding source doesn't provide the proper property changed notifications, you can use the <xref:System.Windows.Data.BindingExpression.UpdateTarget%2A> method to update the target property explicitly.
 
@@ -94,7 +95,7 @@ If you have an advanced scenario and you want to implement your own collection, 
 
 ## Permission requirements in data binding
 
-Unlike .NET Framework, .NET 5+ (and .NET Core 3.1) runs with full-trust security. All data binding runs with the same access as the user running the application.
+Unlike .NET Framework, .NET runs with full-trust security. All data binding runs with the same access as the user running the application.
 
 ## See also
 

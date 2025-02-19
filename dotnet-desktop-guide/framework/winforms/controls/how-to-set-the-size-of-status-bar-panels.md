@@ -1,5 +1,6 @@
 ---
 title: "How to: Set the Size of Status-Bar Panels"
+description: Learn how to set the size of status-bar panels in Windows Forms, by means of code samples in Visual Basic, C#, and CPP.
 ms.date: "03/30/2017"
 dev_langs: 
   - "csharp"
@@ -12,6 +13,7 @@ helpviewer_keywords:
 ms.assetid: a01bee43-d9eb-4954-84e6-45a93532d08d
 ---
 # How to: Set the Size of Status-Bar Panels
+>
 > [!NOTE]
 > The <xref:System.Windows.Forms.ToolStripStatusLabel> control replaces and adds functionality to the <xref:System.Windows.Forms.StatusBar> control; however, the <xref:System.Windows.Forms.StatusBar> control is retained for both backward compatibility and future use, if you choose.  
   

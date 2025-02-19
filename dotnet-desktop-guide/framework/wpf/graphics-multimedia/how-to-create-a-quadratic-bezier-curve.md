@@ -1,5 +1,6 @@
 ---
 title: "How to: Create a Quadratic Bezier Curve"
+description: Learn how to create a quadratic Bezier curve using the PathGeometry, the PathFigure, and the QuadraticBezierSegment classes.
 ms.date: "03/30/2017"
 helpviewer_keywords: 
   - "Bezier curves [WPF], creating"
@@ -8,9 +9,11 @@ helpviewer_keywords:
 ms.assetid: cd8fca4a-504e-4fd8-92ea-2969065a6e02
 ---
 # How to: Create a Quadratic Bezier Curve
+
 This example shows how to create a quadratic Bezier curve.  To create a quadratic Bezier curve, use the <xref:System.Windows.Media.PathGeometry>, <xref:System.Windows.Media.PathFigure>, and <xref:System.Windows.Media.QuadraticBezierSegment> classes.  
   
 ## Example  
+
  In the following examples, a quadratic Bezier curve is drawn from (10,100) to (300,100). The curve has a control point of (200,200).  
 
  In Extensible Application Markup Language (XAML), you can use attribute syntax to describe a path.  

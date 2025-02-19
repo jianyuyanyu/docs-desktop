@@ -1,5 +1,6 @@
 ---
 title: "BindingSource Component"
+description: Learn more about the BindingSource component, which encapsulates a data source for binding to controls.
 ms.date: "03/30/2017"
 helpviewer_keywords: 
   - "data binding [Windows Forms], Windows Forms"
@@ -8,6 +9,7 @@ helpviewer_keywords:
 ms.assetid: 3e2faf4c-f5b8-4fa6-9fbc-f59c37ec2fb9
 ---
 # BindingSource Component
+
 Encapsulates a data source for binding to controls.  
   
  The <xref:System.Windows.Forms.BindingSource> component serves two purposes. First, it provides a layer of indirection when binding the controls on a form to data. This is accomplished by binding the <xref:System.Windows.Forms.BindingSource> component to your data source, and then binding the controls on your form to the <xref:System.Windows.Forms.BindingSource> component. All further interaction with the data, including navigating, sorting, filtering, and updating, is accomplished with calls to the <xref:System.Windows.Forms.BindingSource> component.  
@@ -15,6 +17,7 @@ Encapsulates a data source for binding to controls.
  Second, the <xref:System.Windows.Forms.BindingSource> component can act as a strongly typed data source. Adding a type to the <xref:System.Windows.Forms.BindingSource> component with the <xref:System.Windows.Forms.BindingSource.Add%2A> method creates a list of that type.  
   
 ## In This Section  
+
  [BindingSource Component Overview](bindingsource-component-overview.md)  
  Introduces the general concepts of the <xref:System.Windows.Forms.BindingSource> component, which allows you to bind a data source to a control.  
   
@@ -52,6 +55,7 @@ Encapsulates a data source for binding to controls.
  Shows how to use the <xref:System.Windows.Forms.BindingSource> to bind multiple forms to the same data source.  
   
 ## Reference  
+
  <xref:System.Windows.Forms.BindingSource>  
  Provides reference documentation for the <xref:System.Windows.Forms.BindingSource> component.  
   
@@ -59,6 +63,7 @@ Encapsulates a data source for binding to controls.
  Provides reference documentation for the <xref:System.Windows.Forms.BindingNavigator> control.  
   
 ## Related Sections  
+
  [Windows Forms Data Binding](../windows-forms-data-binding.md)  
  Contains links to topics describing the Windows Forms data binding architecture.  
   

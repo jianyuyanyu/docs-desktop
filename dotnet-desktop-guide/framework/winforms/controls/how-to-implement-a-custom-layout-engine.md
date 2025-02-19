@@ -1,5 +1,6 @@
 ---
 title: "How to: Implement a Custom Layout Engine"
+description: Learn how to implement a custom layout engine with an example of a panel control that overrides layout engine properties.
 ms.date: "03/30/2017"
 dev_langs: 
   - "csharp"
@@ -13,9 +14,11 @@ helpviewer_keywords:
 ms.assetid: f91aa91c-29f4-4089-95ca-5d48b774b00e
 ---
 # How to: Implement a Custom Layout Engine
+
 The following code example demonstrates how to create a custom layout engine that performs a simple flow layout. It implements a panel control named `DemoFlowPanel`, which overrides the <xref:System.Windows.Forms.Control.LayoutEngine%2A> property to provide an instance of the `DemoFlowLayout` class.  
   
 ## Example  
+
  [!code-cpp[System.Windows.Forms.Layout.LayoutEngine#1](~/samples/snippets/cpp/VS_Snippets_Winforms/System.Windows.Forms.Layout.LayoutEngine/cpp/DemoFlowLayout.cpp#1)]
  [!code-csharp[System.Windows.Forms.Layout.LayoutEngine#1](~/samples/snippets/csharp/VS_Snippets_Winforms/System.Windows.Forms.Layout.LayoutEngine/CS/DemoFlowLayout.cs#1)]
  [!code-vb[System.Windows.Forms.Layout.LayoutEngine#1](~/samples/snippets/visualbasic/VS_Snippets_Winforms/System.Windows.Forms.Layout.LayoutEngine/VB/DemoFlowLayout.vb#1)]  

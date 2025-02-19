@@ -1,8 +1,9 @@
 ---
 title: "Routed events overview"
 description: Learn about routed events in Windows Presentation Foundation (WPF), including how they're routed through an element tree and how to create custom routed events.
-ms.date: "04/29/2022"
+ms.date: 10/24/2024
 ms.topic: overview
+ms.custom: update-template
 dev_langs:
   - "csharp"
   - "vb"
@@ -22,8 +23,6 @@ helpviewer_keywords:
 # Routed events overview (WPF .NET)
 
 Windows Presentation Foundation (WPF) application developers and component authors can use routed events to propagate events through an element tree, and invoke event handlers on multiple listeners in the tree. These features aren't found in common language runtime (CLR) events. Several WPF events are routed events, such as <xref:System.Windows.Controls.Primitives.ButtonBase.Click?displayProperty=nameWithType>. This article discusses basic routed event concepts and offers guidance on when and how to respond to routed events.
-
-[!INCLUDE [desktop guide under construction](../../includes/desktop-guide-preview-note.md)]
 
 ## Prerequisites
 
@@ -49,7 +48,7 @@ Consider the following partial element tree:
 
 The element tree renders as shown:
 
-:::image type="content" source="./media/routed-events-overview/yes-no-cancel.png" border="true" alt-text="Yes, No, and Cancel buttons.":::
+:::image type="content" source="./media/routed-events-overview/yes-no-cancel.png" border="true" alt-text="A XAML element tree with three buttons: Yes, No, and Cancel.":::
 
 Each of the three buttons is a potential <xref:System.Windows.Controls.Primitives.ButtonBase.Click> event source. When one of the buttons is clicked, it raises the `Click` event that bubbles up from the button to the root element. The <xref:System.Windows.Controls.Button> and <xref:System.Windows.Controls.Border> elements don't have event handlers attached, but the <xref:System.Windows.Controls.StackPanel> does. Possibly other elements higher up in the tree that aren't shown also have `Click` event handlers attached. When the `Click` event reaches the `StackPanel` element, the WPF event system invokes the `YesNoCancelButton_Click` handler that's attached to it. The event route for the `Click` event in the example is: `Button` -> `StackPanel` -> `Border` -> successive parent elements.
 
@@ -207,7 +206,7 @@ A preview input event that's marked as handled won't invoke any normally registe
 
 To illustrate how input event processing works, consider the following input event example. In the following tree illustration, `leaf element #2` is the source of both the `PreviewMouseDown` and `MouseDown` paired events:
 
-:::image type="content" source="./media/routed-events-overview/input-event-routing.png" border="true" alt-text="Event routing diagram.":::
+:::image type="content" source="./media/routed-events-overview/input-event-routing.png" border="true" alt-text="A diagram that shows how the event routing flows from a root element to other elements.":::
 
 The order of event processing following a mouse-down action on leaf element #2 is:
 

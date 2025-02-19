@@ -1,5 +1,6 @@
 ---
 title: Basics for developing controls
+description: Learn the basics of developing controls with the Windows Forms Control class so that you can apply them to various scenarios.
 ms.date: "03/30/2017"
 helpviewer_keywords: 
   - "custom controls [Windows Forms], derivation types"
@@ -8,6 +9,7 @@ helpviewer_keywords:
 ms.assetid: 6277bb81-90f7-4c5b-9f4b-b02bb42dd316
 ---
 # Windows Forms Control Development Basics
+
 A Windows Forms control is a class that derives directly or indirectly from <xref:System.Windows.Forms.Control?displayProperty=nameWithType>. The following list describes common scenarios for developing Windows Forms controls:  
   
 - Combining existing controls to author a composite control.  

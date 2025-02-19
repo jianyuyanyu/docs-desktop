@@ -1,5 +1,6 @@
 ---
 title: "How to: Accumulate Animation Values During Repeat Cycles"
+description: Learn how to use the IsCumulative property to accumulate base values of an animation across repeating cycles.
 ms.date: "03/30/2017"
 helpviewer_keywords: 
   - "accumulating animation values across repeating cycles [WPF]"
@@ -7,9 +8,11 @@ helpviewer_keywords:
 ms.assetid: 548df369-c7cc-4dab-b569-08b95ced2e7e
 ---
 # How to: Accumulate Animation Values During Repeat Cycles
+
 This example shows how to use the <xref:System.Windows.Media.Animation.DoubleAnimation.IsCumulative%2A> property to accumulate animation values across repeating cycles.  
   
 ## Example  
+
  Use the <xref:System.Windows.Media.Animation.DoubleAnimation.IsCumulative%2A> property to accumulate base values of an animation across repeating cycles. For example, if you set an animation to repeat 9 times (<xref:System.Windows.Media.Animation.Timeline.RepeatBehavior%2A> = "9x") and you set the property to animate between 10 and 15 (From = 10 To = 15), the property animates from 10 to 15 during the first cycle, from 15 to 20 during the second cycle, from 20 to 25 during the third cycle, and so on. Hence, each animation cycle uses the ending animation value from the previous animation cycle as its base value.  
   
  You can use the `IsCumulative` property with most basic animations and most key frame animations. For more information, see [Animation Overview](animation-overview.md) and [Key-Frame Animations Overview](key-frame-animations-overview.md).  

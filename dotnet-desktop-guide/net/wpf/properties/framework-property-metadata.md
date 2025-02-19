@@ -1,7 +1,8 @@
 ---
 title: "Framework property metadata"
 description: Learn how to set framework property metadata for a dependency property in Windows Presentation Foundation (WPF).
-ms.date: "11/20/2021"
+ms.date: 10/24/2024
+ms.custom: update-template
 helpviewer_keywords:
   - "metadata [WPF], framework properties"
   - "framework property metadata [WPF]"
@@ -11,8 +12,6 @@ helpviewer_keywords:
 # Framework property metadata (WPF .NET)
 
 You can set framework property metadata options for dependency properties at the Windows Presentation Foundation (WPF) framework level. The WPF framework level designation applies when WPF presentation APIs and executables handle rendering and data binding. Presentation APIs and executables query the <xref:System.Windows.FrameworkPropertyMetadata> of a dependency property.
-
-[!INCLUDE [desktop guide under construction](../../includes/desktop-guide-preview-note.md)]
 
 ## Prerequisites
 

@@ -32,11 +32,11 @@ When the yellow error bar is expanded, each instance of the error is listed. Man
 
 ## Help with this error
 
-If a help topic for the error is available, click the **MSDN Help** link to navigate directly to the help page on docs.microsoft.com.
+If a help topic for the error is available, click the **MSDN Help** link to navigate directly to the help page.
 
 ## Forum posts about this error
 
-Click the **Search the MSDN Forums for posts related to this error** link to navigate to the Microsoft Developer Network forums. You may want to specifically search the [Windows Forms Designer](https://social.msdn.microsoft.com/Forums/windows/home?forum=winformsdesigner) or [Windows Forms](https://social.msdn.microsoft.com/Forums/windows/home?category=windowsforms) forums.
+Select the **Search the MSDN Forums for posts related to this error** link to navigate to the old Microsoft Developer Network forums. You might also want to search or ask a question on the [Microsoft Q&A](/answers/tags/21/windows-forms) or [StackOverflow](https://stackoverflow.com/questions/tagged/winforms) forums.
 
 ## Design-time errors
 
@@ -104,7 +104,7 @@ This is a problem with a third-party component. Contact the component vendor.
 
 ### Cannot access the Visual Studio Toolbox at this time
 
-Visual Studio made a call to the Toolbox, which was not available. If you see this error, If you see this error, please log an issue by using [Report a Problem](/visualstudio/ide/how-to-report-a-problem-with-visual-studio).
+Visual Studio made a call to the Toolbox, which was not available. If you see this error, please log an issue by using [Report a Problem](/visualstudio/ide/how-to-report-a-problem-with-visual-studio).
 
 ### Cannot bind an event handler to the '\<event name>' event because it is read-only
 

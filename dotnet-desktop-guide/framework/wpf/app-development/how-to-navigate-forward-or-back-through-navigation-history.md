@@ -1,5 +1,6 @@
 ---
 title: "How to: Navigate Forward or Back Through Navigation History"
+description: Learn how to navigate forward or back through navigation history, by means of the included code examples in C# and Visual Basic.
 ms.date: "03/30/2017"
 dev_langs: 
   - "csharp"
@@ -10,9 +11,11 @@ helpviewer_keywords:
 ms.assetid: 5939d574-5f53-469e-85f5-1f2b13607caa
 ---
 # How to: Navigate Forward or Back Through Navigation History
+
 This example illustrates how to navigate forward or back to entries in navigation history.  
   
 ## Example  
+
  Code that runs from content in the following hosts can navigate forward or back through navigation history, one entry at a time.  
   
 - <xref:System.Windows.Navigation.NavigationWindow> using <xref:System.Windows.Navigation.NavigationService>  

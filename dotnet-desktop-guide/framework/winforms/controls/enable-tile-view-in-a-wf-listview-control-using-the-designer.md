@@ -1,5 +1,6 @@
 ---
 title: Enable Tile View in ListView Control Using the Designer
+description: Learn more about how to enable tile view in a Windows Forms ListView control using the designer. 
 ms.date: "03/30/2017"
 helpviewer_keywords:
   - "tile view feature"
@@ -8,6 +9,7 @@ helpviewer_keywords:
 ms.assetid: 12f0816a-52b8-41ee-a6d9-ded3a8a5817a
 ---
 # How to: Enable Tile View in a Windows Forms ListView Control Using the Designer
+
 The tile view feature of the <xref:System.Windows.Forms.ListView> control enables you to provide a visual balance between graphical and textual information. The textual information displayed for an item in tile view is the same as the column information defined for details view. Tile view functions in combination with either the grouping or insertion mark features in the <xref:System.Windows.Forms.ListView> control.
 
  The tile view uses a 32 x 32 icon and several lines of text, as shown in the following image.

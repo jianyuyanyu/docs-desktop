@@ -1,5 +1,6 @@
 ---
 title: "Class Library"
+description: Learn about Windows Presentation Foundation (WPF) APIs by following the links collected in this article.
 ms.date: "03/30/2017"
 helpviewer_keywords: 
   - "WPF class library [WPF]"
@@ -7,6 +8,7 @@ helpviewer_keywords:
 ms.assetid: dcb35927-00ad-4141-a1ab-a7a524dd3f10
 ---
 # Class Library (WPF)
+
 The following links refer to namespaces that contain Windows Presentation Foundation (WPF) APIs.  
   
 ## In This Section  
@@ -118,6 +120,7 @@ The following links refer to namespaces that contain Windows Presentation Founda
 - <xref:UIAutomationClientsideProviders>  
   
 ## XAML Support in .NET 4  
+
  The following namespaces contain types from the System.Xaml assembly. System.Xaml provides common XAML language support for frameworks such as WPF that are built on .NET Framework 4.  
   
 - <xref:System.Windows.Markup> (shared)  

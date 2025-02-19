@@ -1,5 +1,6 @@
 ---
 title: "DocumentViewer Styles and Templates"
+description: Learn about DocumentViewer styles and templates. You can modify the default ControlTemplate to give the control a unique appearance.
 ms.date: "03/30/2017"
 helpviewer_keywords: 
   - "templates [WPF], DocumentViewer"
@@ -11,9 +12,11 @@ helpviewer_keywords:
 ms.assetid: 6bd4ff8f-ea6a-4084-ac58-e7a67446ce1c
 ---
 # DocumentViewer Styles and Templates
+
 This topic describes the styles and templates for the <xref:System.Windows.Controls.DocumentViewer> control. You can modify the default <xref:System.Windows.Controls.ControlTemplate> to give the control a unique appearance. For more information, see [Create a template for a control](how-to-create-apply-template.md).  
   
 ## DocumentViewer Parts  
+
  The following table lists the named parts for the <xref:System.Windows.Controls.DocumentViewer> control.  
   
 |Part|Type|Description|  
@@ -22,6 +25,7 @@ This topic describes the styles and templates for the <xref:System.Windows.Contr
 |PART_FindToolBarHost|<xref:System.Windows.Controls.ContentControl>|The search box, at the bottom by default.|  
   
 ## DocumentViewer States  
+
  The following table lists the visual states for the <xref:System.Windows.Controls.DocumentViewer> control.  
   
 |VisualState Name|VisualStateGroup Name|Description|  
@@ -31,6 +35,7 @@ This topic describes the styles and templates for the <xref:System.Windows.Contr
 |InvalidUnfocused|ValidationStates|The <xref:System.Windows.Controls.Validation.HasError%2A?displayProperty=nameWithType> attached property is `true` has the control does not have focus.|  
   
 ## DocumentViewer ControlTemplate Example  
+
  The following example shows how to define a <xref:System.Windows.Controls.ControlTemplate> for the <xref:System.Windows.Controls.DocumentViewer> control.  
   
  [!code-xaml[ControlTemplateExamples#DocumentViewer](~/samples/snippets/csharp/VS_Snippets_Wpf/ControlTemplateExamples/CS/resources/documentviewer.xaml#documentviewer)]  

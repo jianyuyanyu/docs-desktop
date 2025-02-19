@@ -9,11 +9,14 @@ helpviewer_keywords:
   - "attributes [Windows Forms], applying"
   - "Windows Forms controls, applying attributes"
 ms.assetid: af0a3f7f-155b-4ba1-83c4-9cf721331a06
+description: Learn how to apply attributes in Windows Forms controls to develop components and controls that interact with the design environment.
 ---
 # How to: Apply Attributes in Windows Forms Controls
 
 To develop components and controls that interact correctly with the design environment and execute correctly at run time, you need to apply attributes correctly to classes and members.  
-  
+
+[!INCLUDE [visual-studio-designer-net](../includes/visual-studio-designer-net.md)]
+
 ## Example  
 
  The following code example demonstrates how to use several attributes on a custom control. The control demonstrates a simple logging capability. When the control is bound to a data source, it displays the values sent by the data source in a <xref:System.Windows.Forms.DataGridView> control. If a value exceeds the value specified by the `Threshold` property, a `ThresholdExceeded` event is raised.  

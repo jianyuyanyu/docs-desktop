@@ -1,5 +1,6 @@
 ---
 title: "How to: Handle the ScrollChanged Event"
+description: Learn how to handle the ScrollChanged event, by means of the included code examples in XAML, C#, and Visual Basic.
 ms.date: "03/30/2017"
 dev_langs: 
   - "csharp"
@@ -10,7 +11,9 @@ helpviewer_keywords:
 ms.assetid: 42c695d8-ee28-49d4-80fd-fc71e9be7f29
 ---
 # How to: Handle the ScrollChanged Event
+
 ## Example  
+
  This example shows how to handle the <xref:System.Windows.Controls.ScrollViewer.ScrollChanged> event of a <xref:System.Windows.Controls.ScrollViewer>.  
   
  A <xref:System.Windows.Documents.FlowDocument> element with <xref:System.Windows.Documents.Paragraph> parts is defined in XAML. When the <xref:System.Windows.Controls.ScrollViewer.ScrollChanged> event occurs due to user interaction, a handler is invoked, and text is written to a <xref:System.Windows.Controls.TextBlock> indicating that the event has occurred.  

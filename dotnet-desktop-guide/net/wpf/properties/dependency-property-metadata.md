@@ -1,7 +1,8 @@
 ---
 title: "Dependency property metadata"
 description: Learn about dependency property metadata in Windows Presentation Foundation (WPF) and how to create, assign, and override metadata.
-ms.date: "11/02/2021"
+ms.date: 10/24/2024
+ms.custom: update-template
 helpviewer_keywords:
   - "APIs [WPF], metadata"
   - "dependency properties [WPF], metadata"
@@ -13,8 +14,6 @@ helpviewer_keywords:
 # Dependency property metadata (WPF .NET)
 
 The Windows Presentation Foundation (WPF) property system includes a dependency property metadata reporting system. The information available through the metadata reporting system exceeds what is available through reflection or general common language runtime (CLR) characteristics. When you register a dependency property, you have the option to create and assign metadata to it. If you derive from a class that defines a dependency property, you can override the metadata for the inherited dependency property. And, if you add your class as an owner of a dependency property, you can override the metadata of the inherited dependency property.
-
-[!INCLUDE [desktop guide under construction](../../includes/desktop-guide-preview-note.md)]
 
 ## Prerequisites
 

@@ -3,7 +3,8 @@ title: "How to use system resources"
 description: Learn how to define and reference Windows Presentation Foundation (WPF) Windows Operating System resources in XAML.
 author: adegeo
 ms.author: adegeo
-ms.date: 04/09/2021
+ms.date: 10/24/2024
+ms.custom: update-template
 dev_langs: 
   - "csharp"
   - "vb"
@@ -19,8 +20,6 @@ helpviewer_keywords:
 # How to use system resources (WPF .NET)
 
 This example demonstrates how to use system-defined resources. System resources are provided by WPF and allow access to operating system resources, such as fonts, colors, and icons. System resources expose several system-defined values as both resources and properties to help you create visuals that are consistent with Windows.
-
-[!INCLUDE [desktop guide under construction](../../includes/desktop-guide-preview-note.md)]
 
 ## Fonts
 

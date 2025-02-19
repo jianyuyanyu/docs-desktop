@@ -1,5 +1,6 @@
 ---
 title: "How to: Obtain Font Metrics"
+description: Learn how the System.Drawing.FontFamily class provides methods that retrieve various metrics for a particular font family/style combination.
 ms.date: "03/30/2017"
 dev_langs: 
   - "csharp"
@@ -10,6 +11,7 @@ helpviewer_keywords:
 ms.assetid: ff7c0616-67f7-4fa2-84ee-b8d642f2b09b
 ---
 # How to: Obtain Font Metrics
+
 The <xref:System.Drawing.FontFamily> class provides the following methods that retrieve various metrics for a particular family/style combination:  
   
 - <xref:System.Drawing.FontFamily.GetEmHeight%2A>(FontStyle)  
@@ -27,6 +29,7 @@ The <xref:System.Drawing.FontFamily> class provides the following methods that r
  ![Illustration of font metrics: ascent, descent, and line spacing.](./media/how-to-obtain-font-metrics/various-font-metrics.png)  
   
 ## Example  
+
  The following example displays the metrics for the regular style of the Arial font family. The code also creates a <xref:System.Drawing.Font> object (based on the Arial family) with size 16 pixels and displays the metrics (in pixels) for that particular <xref:System.Drawing.Font> object.  
   
  The following illustration shows the output of the example code:
@@ -47,6 +50,7 @@ The <xref:System.Drawing.FontFamily> class provides the following methods that r
  [!code-vb[System.Drawing.FontsAndText#71](~/samples/snippets/visualbasic/VS_Snippets_Winforms/System.Drawing.FontsAndText/VB/Class1.vb#71)]  
   
 ## Compiling the Code  
+
  The preceding example is designed for use with Windows Forms, and it requires <xref:System.Windows.Forms.PaintEventArgs> `e`, which is a parameter of <xref:System.Windows.Forms.PaintEventHandler>.  
   
 ## See also

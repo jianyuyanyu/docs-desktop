@@ -1,5 +1,6 @@
 ---
 title: "How to: Animate the Color or Opacity of a SolidColorBrush"
+description: Learn how to animate the Color and Opacity of a SolidColorBrush in Windows Presentation Foundation (WPF).
 ms.date: "03/30/2017"
 helpviewer_keywords: 
   - "SolidColorBrush [WPF], animating color of"
@@ -11,9 +12,11 @@ helpviewer_keywords:
 ms.assetid: d9154354-843f-4713-bad1-35bb0ba6eaeb
 ---
 # How to: Animate the Color or Opacity of a SolidColorBrush
+
 This example shows how to animate the <xref:System.Windows.Media.SolidColorBrush.Color%2A> and <xref:System.Windows.Media.Brush.Opacity%2A> of a <xref:System.Windows.Media.SolidColorBrush>.  
   
 ## Example  
+
  The following example uses three animations to animate the <xref:System.Windows.Media.SolidColorBrush.Color%2A> and <xref:System.Windows.Media.Brush.Opacity%2A> of a <xref:System.Windows.Media.SolidColorBrush>.  
   
 - The first animation, a <xref:System.Windows.Media.Animation.ColorAnimation>, changes the brush's color to <xref:System.Windows.Media.Colors.Gray%2A> when the mouse enters the rectangle.  

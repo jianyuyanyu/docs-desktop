@@ -1,7 +1,8 @@
 ---
 title: "Dependency property value inheritance"
 description: "Learn how dependency property value inheritance can be used to propagate property values in Windows Presentation Foundation (WPF)."
-ms.date: "12/29/2021"
+ms.date: 10/24/2024
+ms.custom: update-template
 dev_langs:
   - "csharp"
   - "vb"
@@ -17,8 +18,6 @@ helpviewer_keywords:
 Property value inheritance is a feature of the Windows Presentation Foundation (WPF) property system and applies to dependency properties. Property value inheritance lets child elements in a tree of elements obtain the value of a particular property from the nearest parent element. Since a parent element might also have obtained its property value through property value inheritance, the system potentially recurses back to the page root.
 
 The WPF property system doesn't enable property value inheritance by default, and value inheritance is inactive unless specifically enabled in dependency property [metadata](<xref:System.Windows.FrameworkPropertyMetadata.Inherits>). Even with property value inheritance enabled, a child element will only inherit a property value in the absence of a higher [precedence](dependency-property-value-precedence.md#dependency-property-precedence-list) value.
-
-[!INCLUDE [desktop guide under construction](../../includes/desktop-guide-preview-note.md)]
 
 ## Prerequisites
 

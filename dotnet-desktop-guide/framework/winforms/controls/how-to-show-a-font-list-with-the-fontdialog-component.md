@@ -1,5 +1,6 @@
 ---
 title: "How to: Show a Font List with the FontDialog Component"
+description: Learn how to show a font list with the FontDialog component, which allows users to select a font, as well as change its display aspects.
 ms.date: "03/30/2017"
 dev_langs: 
   - "csharp"
@@ -15,6 +16,7 @@ helpviewer_keywords:
 ms.assetid: 35692c1b-0937-4b7a-9207-1ae6bdc244a0
 ---
 # How to: Show a Font List with the FontDialog Component
+
 The [FontDialog](fontdialog-component-windows-forms.md) component allows users to select a font, as well as change its display aspects, such as its weight and size.  
   
  The font selected in the dialog box is returned in the <xref:System.Windows.Forms.FontDialog.Font%2A> property. Thus, taking advantage of the font selected by the user is as easy as reading a property.  

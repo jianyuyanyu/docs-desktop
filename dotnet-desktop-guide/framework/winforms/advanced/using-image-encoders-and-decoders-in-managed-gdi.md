@@ -1,5 +1,6 @@
 ---
 title: "Using Image Encoders and Decoders in Managed GDI+"
+description: Learn how to use image encoders and decoders in managed GDI+ for Windows Forms applications using a selection of topics and tutorials.
 ms.date: "03/30/2017"
 helpviewer_keywords: 
   - "image encoders [Windows Forms], using"
@@ -7,6 +8,7 @@ helpviewer_keywords:
 ms.assetid: 0e838ea1-4e7e-4334-b882-ab25df607b8b
 ---
 # Using Image Encoders and Decoders in Managed GDI+
+
 The <xref:System.Drawing> namespace provides the <xref:System.Drawing.Image> and <xref:System.Drawing.Bitmap> classes for storing and manipulating images. By using image encoders in GDI+, you can write images from memory to disk. By using image decoders in GDI+, you can load images from disk into memory. An encoder translates the data in an <xref:System.Drawing.Image> or <xref:System.Drawing.Bitmap> object into a designated disk file format. A decoder translates the data in a disk file to the format required by the <xref:System.Drawing.Image> and <xref:System.Drawing.Bitmap> objects.  
   
  GDI+ has built-in encoders and decoders that support the following file types:  
@@ -32,6 +34,7 @@ The <xref:System.Drawing> namespace provides the <xref:System.Drawing.Image> and
  The following topics discuss encoders and decoders in more detail:  
   
 ## In This Section  
+
  [How to: List Installed Encoders](how-to-list-installed-encoders.md)  
  Describes how to list the encoders available on a computer.  
   
@@ -48,6 +51,7 @@ The <xref:System.Drawing> namespace provides the <xref:System.Drawing.Image> and
  Describes how to change the quality level of an image.  
   
 ## Reference  
+
  <xref:System.Drawing.Image>  
   
  <xref:System.Drawing.Bitmap>  
@@ -59,6 +63,7 @@ The <xref:System.Drawing> namespace provides the <xref:System.Drawing.Image> and
  <xref:System.Drawing.Imaging.Encoder>  
   
 ## Related Sections  
+
  [About GDI+ Managed Code](about-gdi-managed-code.md)  
   
  [Images, Bitmaps, and Metafiles](images-bitmaps-and-metafiles.md)

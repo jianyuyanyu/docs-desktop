@@ -1,8 +1,9 @@
 ---
 title: "Custom dependency properties"
 description: Learn how to implement a dependency property in Windows Presentation Foundation (WPF), and how to improve its performance, usability, or versatility.
-ms.date: "10/20/2021"
+ms.date: 10/24/2024
 ms.topic: overview
+ms.custom: update-template
 dev_langs:
   - "csharp"
   - "vb"
@@ -21,8 +22,6 @@ helpviewer_keywords:
 # Custom dependency properties (WPF .NET)
 
 Windows Presentation Foundation (WPF) application developers and component authors can create custom dependency properties to extend the functionality of their properties. Unlike a common language runtime (CLR) [property](/dotnet/standard/base-types/common-type-system#properties), a dependency property adds support for styling, data binding, inheritance, animations, and default values. <xref:System.Windows.Controls.Control.Background%2A>, <xref:System.Windows.FrameworkElement.Width%2A>, and <xref:System.Windows.Controls.TextBox.Text%2A> are examples of existing dependency properties in WPF classes. This article describes how to implement custom dependency properties, and presents options for improving performance, usability, and versatility.
-
-[!INCLUDE [desktop guide under construction](../../includes/desktop-guide-preview-note.md)]
 
 ## Prerequisites
 

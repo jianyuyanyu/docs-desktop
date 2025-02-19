@@ -1,5 +1,6 @@
 ---
 title: Display Subitems in Columns with ListView Control
+description: Learn how to display subitems in columns with ListView Control like additional text or subitems for items in Details view.
 ms.date: "03/30/2017"
 dev_langs: 
   - "csharp"
@@ -12,6 +13,7 @@ helpviewer_keywords:
 ms.assetid: e465f044-cde7-4fd9-a687-788a73a0f554
 ---
 # How to: Display Subitems in Columns with the Windows Forms ListView Control
+
 The Windows Forms <xref:System.Windows.Forms.ListView> control can display additional text, or subitems, for each item in the Details view. The first column displays the item text, for example an employee number. The second, third, and subsequent columns display the first, second, and subsequent associated subitems.  
   
 ### To add subitems to a list item  

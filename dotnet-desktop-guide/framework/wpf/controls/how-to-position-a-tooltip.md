@@ -1,5 +1,6 @@
 ---
 title: "How to: Position a ToolTip"
+description: Learn how to specify the position of a ToolTip in a Windows Presentation Foundation (WPF) application by using a set of five properties.
 ms.date: "03/30/2017"
 dev_langs: 
   - "csharp"
@@ -10,9 +11,11 @@ helpviewer_keywords:
 ms.assetid: cddf3757-9e5f-4ce3-a6eb-44489cf3804a
 ---
 # How to: Position a ToolTip
+
 This example shows how to specify the position of a tooltip on the screen.  
   
 ## Example  
+
  You can position a tooltip by using a set of five properties that are defined in both the <xref:System.Windows.Controls.ToolTip> and <xref:System.Windows.Controls.ToolTipService> classes. The following table shows these two sets of five properties and provides links to their reference documentation according to class.  
   
 ### Corresponding tooltip properties according to class  

@@ -1,5 +1,6 @@
 ---
 title: Create InkCanvas in Visual Studio
+description: Learn how to get started adding digital ink capability to your Windows Presentation Foundation (WPF) applications.
 ms.date: 08/15/2018
 dev_langs:
   - "csharp"
@@ -16,7 +17,7 @@ Windows Presentation Foundation (WPF) has an ink feature that makes it easy to i
 
 ## Prerequisites
 
-To use the following examples, first install [Visual Studio](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019). It also helps to know how to write basic WPF apps. For help getting started with WPF, see [Walkthrough: My first WPF desktop application](../getting-started/walkthrough-my-first-wpf-desktop-application.md).
+To use the following examples, first install [Visual Studio](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=learn.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019). It also helps to know how to write basic WPF apps. For help getting started with WPF, see [Walkthrough: My first WPF desktop application](../getting-started/walkthrough-my-first-wpf-desktop-application.md).
 
 ## Quick Start
 

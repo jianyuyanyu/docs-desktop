@@ -1,5 +1,6 @@
 ---
 title: "How to: Create and Use a Canvas"
+description: Learn how to create and use a canvas, by means of the included code examples in C# and Visual Basic.
 ms.date: "03/30/2017"
 dev_langs: 
   - "csharp"
@@ -11,9 +12,11 @@ helpviewer_keywords:
 ms.assetid: 420b9487-9a15-477c-9489-a22a4dec7779
 ---
 # How to: Create and Use a Canvas
+
 This example shows how to create and use an instance of <xref:System.Windows.Controls.Canvas>.  
   
 ## Example  
+
  The following example explicitly positions two <xref:System.Windows.Controls.TextBlock> elements by using the <xref:System.Windows.Controls.Canvas.SetTop%2A> and <xref:System.Windows.Controls.Canvas.SetLeft%2A> methods of <xref:System.Windows.Controls.Canvas>. The example also assigns a <xref:System.Windows.Controls.Control.Background%2A> color of `LightSteelBlue` to the <xref:System.Windows.Controls.Canvas>.  
   
 > [!NOTE]

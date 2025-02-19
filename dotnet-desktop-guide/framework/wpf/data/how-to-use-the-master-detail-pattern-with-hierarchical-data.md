@@ -1,5 +1,6 @@
 ---
 title: "How to: Use the Master-Detail Pattern with Hierarchical Data"
+description: Learn how to implement the master-detail scenario using the master-detail pattern with hierarchial data.
 ms.date: "03/30/2017"
 helpviewer_keywords: 
   - "data binding [WPF], Master-Detail data paradigm"
@@ -7,9 +8,11 @@ helpviewer_keywords:
 ms.assetid: 11429b9e-058d-4084-bfb6-2cf209c8ddf7
 ---
 # How to: Use the Master-Detail Pattern with Hierarchical Data
+
 This example shows how to implement the master-detail scenario.  
   
 ## Example  
+
  In this example, `LeagueList` is a collection of `Leagues`. Each `League` has a `Name` and a collection of `Divisions`, and each `Division` has a name and a collection of `Teams`. Each `Team` has a team name.  
   
  [!code-xaml[MasterDetail#HowTo1](~/samples/snippets/visualbasic/VS_Snippets_Wpf/MasterDetail/VisualBasic/Page1.xaml#howto1)]  

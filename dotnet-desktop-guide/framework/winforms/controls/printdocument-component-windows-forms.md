@@ -1,5 +1,6 @@
 ---
 title: "PrintDocument Component"
+description: Learn about the PrintDOcument component in Windows Forms, which is used to set the properties that describe what to print and then to print the document.
 ms.date: "03/30/2017"
 helpviewer_keywords: 
   - "PrintDocument component [Windows Forms]"
@@ -7,17 +8,21 @@ helpviewer_keywords:
 ms.assetid: 5af6a51d-66f6-43cd-a8cd-d64eb18fe7e7
 ---
 # PrintDocument Component (Windows Forms)
+
 The Windows Forms `PrintDocument` component is used to set the properties that describe what to print and then to print the document within Windows-based applications. It can be used in conjunction with the <xref:System.Windows.Forms.PrintDialog> component to be in command of all aspects of document printing.  
   
 ## In This Section  
+
  [PrintDocument Component Overview](printdocument-component-overview-windows-forms.md)  
  Introduces the general concepts of the `PrintDocument` component, which allows you to set properties describing what to print and launches printing in a Windows-based application.  
   
 ## Reference  
+
  <xref:System.Drawing.Printing.PrintDocument>  
  Provides reference information on the class and its members.  
   
 ## Related Sections  
+
  [Windows Forms Print Support](../advanced/windows-forms-print-support.md)  
  Presents a list of printing topics related to Windows Forms.  
   

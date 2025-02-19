@@ -1,10 +1,11 @@
 ---
-title: XAML overview
+title: XAML language overview
 description: Learn how the XAML language is structured and implemented by Windows Presentation Foundation (WPF) for .NET.
 author: adegeo
-ms.date: 04/12/2021
+ms.date: 10/24/2024
 ms.author: adegeo
 ms.topic: overview
+ms.custom: update-template
 dev_langs:
   - "csharp"
   - "vb"
@@ -28,11 +29,9 @@ helpviewer_keywords:
 
 This article describes the features of the XAML language and demonstrates how you can use XAML to write Windows Presentation Foundation (WPF) apps. This article specifically describes XAML as implemented by WPF. XAML itself is a larger language concept than WPF.
 
-[!INCLUDE [desktop guide under construction](../../includes/desktop-guide-preview-note.md)]
-
 ## What is XAML
 
-XAML is a declarative markup language. As applied to the .NET Core programming model, XAML simplifies creating a UI for a .NET Core app. You can create visible UI elements in the declarative XAML markup, and then separate the UI definition from the run-time logic by using code-behind files that are joined to the markup through partial class definitions. XAML directly represents the instantiation of objects in a specific set of backing types defined in assemblies. This is unlike most other markup languages, which are typically an interpreted language without such a direct tie to a backing type system. XAML enables a workflow where separate parties can work on the UI and the logic of an app, using potentially different tools.
+XAML is a declarative markup language. As applied to the .NET programming model, XAML simplifies creating a UI for a .NET app. You can create visible UI elements in the declarative XAML markup, and then separate the UI definition from the run-time logic by using code-behind files that are joined to the markup through partial class definitions. XAML directly represents the instantiation of objects in a specific set of backing types defined in assemblies. This is unlike most other markup languages, which are typically an interpreted language without such a direct tie to a backing type system. XAML enables a workflow where separate parties can work on the UI and the logic of an app, using potentially different tools.
 
 When represented as text, XAML files are XML files that generally have the `.xaml` extension. The files can be encoded by any XML encoding, but encoding as UTF-8 is typical.
 
@@ -122,7 +121,16 @@ Here, each <xref:System.Windows.Controls.Button> is a child element of <xref:Sys
 
 - **Omitted UIElementCollection object element:** The <xref:System.Windows.Controls.Panel.Children%2A?displayProperty=nameWithType> property takes the type <xref:System.Windows.Controls.UIElementCollection>, which implements <xref:System.Collections.IList>. The collection's element tag can be omitted, based on the XAML rules for processing collections such as <xref:System.Collections.IList>. (In this case, <xref:System.Windows.Controls.UIElementCollection> actually can't be instantiated because it doesn't expose a parameterless constructor, and that is why the <xref:System.Windows.Controls.UIElementCollection> object element is shown commented out).
 
-:::code language="xaml" source="./snippets/index/csharp/MainWindow.xaml" id="ContentCollection2":::
+```xaml
+<StackPanel>
+    <StackPanel.Children>
+        <!--<UIElementCollection>-->
+        <Button>First Button</Button>
+        <Button>Second Button</Button>
+        <!--</UIElementCollection>-->
+    </StackPanel.Children>
+</StackPanel>
+```
 
 ### Attribute syntax (events)
 
@@ -150,7 +158,7 @@ For example, the following markup sets the value of the <xref:System.Windows.Fra
 
 :::code language="xaml" source="./snippets/index/csharp/Window1.xaml" highlight="7-10,12" :::
 
-For a reference listing of all markup extensions for XAML implemented specifically in WPF, see [WPF XAML Extensions](../../../framework/wpf/advanced/wpf-xaml-extensions.md). For a reference listing of the markup extensions that are defined by System.Xaml and are more widely available for .NET Core XAML implementations, see [XAML Namespace (x:) Language Features](../../../xaml-services/namespace-language-features.md). For more information about markup extension concepts, see [Markup Extensions and WPF XAML](../../../framework/wpf/advanced/markup-extensions-and-wpf-xaml.md).
+For a reference listing of all markup extensions for XAML implemented specifically in WPF, see [WPF XAML Extensions](../../../framework/wpf/advanced/wpf-xaml-extensions.md). For a reference listing of the markup extensions that are defined by System.Xaml and are more widely available for .NET XAML implementations, see [XAML Namespace (x:) Language Features](../../../xaml-services/namespace-language-features.md). For more information about markup extension concepts, see [Markup Extensions and WPF XAML](../../../framework/wpf/advanced/markup-extensions-and-wpf-xaml.md).
 
 ## Type converters
 
@@ -228,12 +236,15 @@ Most WPF apps consist of both XAML markup and code-behind. Within a project, the
 
 In the examples so far, you have seen several buttons, but none of these buttons had any logical behavior associated with them yet. The primary application-level mechanism for adding a behavior for an object element is to use an existing event of the element class, and to write a specific handler for that event that is invoked when that event is raised at run-time. The event name and the name of the handler to use are specified in the markup, whereas the code that implements your handler is defined in the code-behind.
 
-:::code language="xaml" source="./snippets/index/csharp/Window2.xaml" :::
+:::code language="xaml" source="./snippets/index/csharp/ExamplePage.xaml" :::
 
-:::code language="csharp" source="./snippets/index/csharp/Window2.xaml.cs" id="ButtonClickHandler" :::
-:::code language="vb" source="./snippets/index/vb/Window2.xaml.vb" id="ButtonClickHandler" :::
+:::code language="csharp" source="./snippets/index/csharp/ExamplePage.xaml.cs" :::
+:::code language="vb" source="./snippets/index/vb/ExamplePage.xaml.vb" :::
 
-Notice that the code-behind file uses the CLR namespace `ExampleNamespace` and declares `ExamplePage` as a partial class within that namespace. This parallels the `x:Class` attribute value of `ExampleNamespace`.`ExamplePage` that was provided in the markup root. The WPF markup compiler will create a partial class for any compiled XAML file, by deriving a class from the root element type. When you provide code-behind that also defines the same partial class, the resulting code is combined within the same namespace and class of the compiled app.
+Notice that the code-behind file uses the CLR namespace `ExampleNamespace` (the namespace isn't visible in Visual Basic) and declares `ExamplePage` as a partial class within that namespace. This parallels the `x:Class` attribute value of `ExampleNamespace`.`ExamplePage` that was provided in the markup root. The WPF markup compiler will create a partial class for any compiled XAML file, by deriving a class from the root element type. When you provide code-behind that also defines the same partial class, the resulting code is combined within the same namespace and class of the compiled app.
+
+> [!IMPORTANT]
+> In Visual Basic, the root namespace is implied for both the XAML and code-behind. Only nested namespaces are visible. This article demonstrates the C# project's XAML.
 
 For more information about requirements for code-behind programming in WPF, see [Code-behind, Event Handler, and Partial Class Requirements in WPF](../../../framework/wpf/advanced/code-behind-and-xaml-in-wpf.md#code-behind-event-handler-and-partial-class-requirements-in-wpf).
 
@@ -260,7 +271,7 @@ Just like a variable, the XAML name for an instance is governed by a concept of 
 
 ## Attached properties and attached events
 
-XAML specifies a language feature that enables certain properties or events to be specified on any element, even if the property or event doesn't exists in the type's definitions for the element it's being set on. The properties version of this feature is called an attached property, the events version is called an attached event. Conceptually, you can think of attached properties and attached events as global members that can be set on any XAML element/object instance. However, that element/class or a larger infrastructure must support a backing property store for the attached values.
+XAML specifies a language feature that enables certain properties or events to be specified on any element, even if the property or event doesn't exist in the type's definitions for the element it's being set on. The properties version of this feature is called an attached property, the events version is called an attached event. Conceptually, you can think of attached properties and attached events as global members that can be set on any XAML element/object instance. However, that element/class or a larger infrastructure must support a backing property store for the attached values.
 
 Attached properties in XAML are typically used through attribute syntax. In attribute syntax, you specify an attached property in the form `ownerType.propertyName`.
 

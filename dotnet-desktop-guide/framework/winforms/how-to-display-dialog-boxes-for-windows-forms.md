@@ -1,5 +1,6 @@
 ---
 title: "How to: Display Dialog Boxes"
+description: Learn how to display dialog boxes in a similar way to how you display other forms in Windows applications.
 ms.date: "03/30/2017"
 dev_langs: 
   - "csharp"
@@ -13,6 +14,7 @@ helpviewer_keywords:
 ms.assetid: aaac1b38-c651-495a-8d3d-5a9bfb32fee3
 ---
 # How to: Display Dialog Boxes for Windows Forms
+
 You display a dialog box in the same way you display any other form in an application. The startup form loads automatically when the application is run. To make a second form or dialog box appear in the application, write code to load and display it. Similarly, to make the form or dialog box disappear, write code to unload or hide it.  
   
 ### To display a dialog box  

@@ -1,7 +1,8 @@
 ---
 title: How to print an XML Paper Specification (XPS) file
 description: Learn how to print an XPS file from your application by using the System.Printing.PrintQueue.AddJob method.
-ms.date: 09/16/2021
+ms.date: 10/24/2024
+ms.custom: update-template
 dev_langs:
   - "csharp"
   - "vb"
@@ -12,8 +13,6 @@ helpviewer_keywords:
 # How to print an XPS file (WPF .NET)
 
 Sometimes you'll want to add a new print job to the print queue without opening a print dialog box. You can use one of the <xref:System.Printing.PrintQueue.AddJob%2A?displayProperty=nameWithType> methods to do that. Here's how.
-
-[!INCLUDE [desktop guide under construction](../../includes/desktop-guide-preview-note.md)]
 
 In the following example, we use the <xref:System.Printing.PrintQueue.AddJob%28System.String%2CSystem.String%2CSystem.Boolean%29> method, one of the several overloads of `AddJob`, to:
 

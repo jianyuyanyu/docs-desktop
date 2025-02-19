@@ -1,5 +1,6 @@
 ---
 title: "How to: Enable Reordering of ToolStrip Items at Run Time"
+description: Learn how to enable reordering of ToolStrip items at run time so that users can drag the tool strip to a new location.
 ms.date: "03/30/2017"
 dev_langs: 
   - "csharp"
@@ -12,6 +13,7 @@ helpviewer_keywords:
 ms.assetid: 8480b69a-379f-4dc2-8dcf-365ed93692b2
 ---
 # How to: Enable Reordering of ToolStrip Items at Run Time in Windows Forms
+
 You can enable the user to rearrange <xref:System.Windows.Forms.ToolStripItem> controls on the <xref:System.Windows.Forms.ToolStrip>.  
   
 ### To enable ToolStripItem rearrangement at run time  

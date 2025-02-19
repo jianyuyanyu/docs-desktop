@@ -1,5 +1,6 @@
 ---
 title: Designate a Button as the Accept Button
+description: Learn how to assign a button as the accept button, also known as a default button on any windows form. 
 ms.date: "03/30/2017"
 dev_langs: 
   - "csharp"
@@ -13,6 +14,7 @@ helpviewer_keywords:
 ms.assetid: 22cc9da6-b913-4e04-9554-dee443ac5c3a
 ---
 # How to: Designate a Windows Forms Button as the Accept Button
+
 On any Windows Form, you can designate a <xref:System.Windows.Forms.Button> control to be the accept button, also known as the default button. Whenever the user presses the ENTER key, the default button is clicked regardless of which other control on the form has the focus.  
   
 > [!NOTE]

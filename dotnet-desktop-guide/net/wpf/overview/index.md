@@ -1,8 +1,9 @@
 ---
 title: What is Windows Presentation Foundation
-description: This article gives an overview of WPF with .NET Core and .NET 5.
-ms.date: 01/14/2021
+description: This article gives an overview of Windows Presentation Foundation (WPF) with .NET. WPF is a Windows-only user interface (UI) framework.
+ms.date: 02/15/2023
 ms.topic: overview
+ms.custom: update-template, updateeachrelease
 dev_langs: 
   - "csharp"
   - "vb"
@@ -13,15 +14,13 @@ dev_langs:
 
 Welcome to the Desktop Guide for Windows Presentation Foundation (WPF), a UI framework that is resolution-independent and uses a vector-based rendering engine, built to take advantage of modern graphics hardware. WPF provides a comprehensive set of application-development features that include Extensible Application Markup Language (XAML), controls, data binding, layout, 2D and 3D graphics, animation, styles, templates, documents, media, text, and typography. WPF is part of .NET, so you can build applications that incorporate other elements of the .NET API.
 
-[!INCLUDE [desktop guide under construction](../../includes/desktop-guide-preview-note.md)]
-
 There are two implementations of WPF:
 
 01. **.NET** version (this guide):
 
-    An open-source implementation of WPF hosted on [GitHub](https://github.com/dotnet/wpf), which runs on .NET 5 or higher (including .NET Core 3.1). The XAML designer requires, at a minimum, [Visual Studio 2019 version 16.8](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019+desktopguide+wpf).
+    An open-source implementation of WPF hosted on [GitHub](https://github.com/dotnet/wpf), which runs on .NET. The XAML designer requires, at a minimum, [Visual Studio 2019 version 16.8](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=learn.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019+desktopguide+wpf). But depending on your version of .NET, you may be required to use a newer version of Visual Studio.
 
-    Even though .NET is a cross-platform technology, WPF isn't and only runs on Windows.
+    Even though .NET is a cross-platform technology, WPF only runs on Windows.
 
 01. **.NET Framework 4** version:
 
@@ -31,9 +30,17 @@ There are two implementations of WPF:
 
 This overview is intended for newcomers and covers the key capabilities and concepts of WPF. To learn how to create a WPF app, see [Tutorial: Create a new WPF app](../get-started/create-app-visual-studio.md).
 
-## Why migrate from .NET Framework
+## Why upgrade from .NET Framework
 
-WPF for .NET 5.0 provides new features and enhancements over .NET Framework. To learn how to migrate an app, see [How to migrate a WPF desktop app to .NET 5](../migration/convert-project-from-net-framework.md).
+When you are upgrading your application from .NET Framework to .NET, you will benefit from:
+
+- Better performance
+- New .NET APIs
+- The latest language improvements
+- Improved accessibility and reliability
+- Updated tooling and more
+
+To learn how to upgrade your application, see [How to upgrade a WPF desktop app to .NET 7](../migration/index.md).
 
 ## Program with WPF
 
@@ -65,7 +72,7 @@ The following example uses XAML to implement the appearance of a window that con
 ```xaml
 <Window
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-    Title="Window with Button"
+    Title="Window with button"
     Width="250" Height="100">
 
   <!-- Add button to window -->
@@ -80,7 +87,7 @@ The following figure shows the user interface (UI) that is defined by the XAML i
 
 :::image type="content" source="media/index/markup-window-button.png" alt-text="A window that contains a button":::
 
-Since XAML is XML-based, the UI that you compose with it's assembled in a hierarchy of nested elements that is known as an [element tree](../../../framework/wpf/advanced/trees-in-wpf.md). The element tree provides a logical and intuitive way to create and manage UIs.
+Since XAML is XML-based, the UI that you compose with it is assembled in a hierarchy of nested elements that is known as an [element tree](../../../framework/wpf/advanced/trees-in-wpf.md). The element tree provides a logical and intuitive way to create and manage UIs.
 
 ### Code-behind
 
@@ -91,7 +98,7 @@ The main behavior of an application is to implement the functionality that respo
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     x:Class="SDKSample.AWindow"
-    Title="Window with Button"
+    Title="Window with button"
     Width="250" Height="100">
 
   <!-- Add button to window -->
@@ -155,7 +162,7 @@ End Namespace
 
 `InitializeComponent` is called from the code-behind class's constructor to merge the UI that is defined in markup with the code-behind class. (`InitializeComponent` is generated for you when your application is built, which is why you don't need to implement it manually.) The combination of `x:Class` and `InitializeComponent` ensure that your implementation is correctly initialized whenever it's created.
 
-Notice that in the markup the `<Button>` element defined a value of `button_click` for the `Click` attribute. With the markup and code-behind initialized and working together, the <xref:System.Windows.Controls.Primitives.ButtonBase.Click> event for the button is automatically mapped to the `button_click` method. When the button is clicked, the event handler is invoked and a message box is displayed by calling the <xref:System.Windows.MessageBox.Show%2A?displayProperty=fullName> method.
+Notice that in the markup the `<Button>` element defined a value of `button_Click` for the `Click` attribute. With the markup and code-behind initialized and working together, the <xref:System.Windows.Controls.Primitives.ButtonBase.Click> event for the button is automatically mapped to the `button_Click` method. When the button is clicked, the event handler is invoked and a message box is displayed by calling the <xref:System.Windows.MessageBox.Show%2A?displayProperty=fullName> method.
 
 The following figure shows the result when the button is clicked:
 
@@ -225,7 +232,7 @@ The layout system is exposed to child controls through base WPF classes. For com
 
 - <xref:System.Windows.Controls.VirtualizingStackPanel>: Child controls are virtualized and arranged on a single line that is either horizontally or vertically oriented.
 
-- <xref:System.Windows.Controls.WrapPanel>: Child controls are positioned in left-to-right order and wrapped to the next line when there isn't enough space. on the current line.
+- <xref:System.Windows.Controls.WrapPanel>: Child controls are positioned in left-to-right order and wrapped to the next line when there isn't enough space on the current line.
 
 The following example uses a <xref:System.Windows.Controls.DockPanel> to lay out several <xref:System.Windows.Controls.TextBox> controls:
 
@@ -486,7 +493,7 @@ For more information on custom controls, see [Control authoring overview](../../
 ## See also
 
 - [Tutorial: Create a new WPF app](../get-started/create-app-visual-studio.md)
-- [Migrate a WPF app to .NET Core](../migration/convert-project-from-net-framework.md)
+- [Migrate a WPF app to .NET](../migration/convert-project-from-net-framework.md)
 - [Overview of WPF windows](../windows/index.md)
 - [Data binding overview](../data/index.md)
 - [XAML overview](../xaml/index.md)

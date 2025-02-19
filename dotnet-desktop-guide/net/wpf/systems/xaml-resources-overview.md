@@ -1,10 +1,11 @@
 ---
 title: XAML resources overview
-description: Learn what a Windows Presentation Foundation (WPF) resource is. WPF provides a resource system, both in XAML and in code, that allows to you create, reference, and reuse resources.
+description: Learn what a Windows Presentation Foundation (WPF) resource is. WPF provides a system that allows to you create, reference, and reuse resources.
 author: adegeo
 ms.author: adegeo
-ms.date: 03/31/2021
+ms.date: 10/24/2024
 ms.topic: overview
+ms.custom: update-template
 dev_langs: 
   - "csharp"
   - "vb"
@@ -16,8 +17,6 @@ A resource is an object that can be reused in different places in your app. Exam
 
 > [!NOTE]
 > XAML resources described in this article are different from *app resources*, which are generally files added to an app, such as content, data, or embedded files.
-
-[!INCLUDE [desktop guide under construction](../../includes/desktop-guide-preview-note.md)]
 
 ## Use resources in XAML
 
@@ -38,7 +37,7 @@ You can use a defined resource with the resource markup extension syntax that sp
 
 In the preceding example, when the XAML loader processes the value `{StaticResource MyBrush}` for the <xref:System.Windows.Controls.Control.Background%2A> property on <xref:System.Windows.Controls.Button>, the resource lookup logic first checks the resource dictionary for the `Button` element. If `Button` doesn't have a definition of the resource key `MyBrush` (in that example it doesn't; its resource collection is empty), the lookup next checks the parent element of `Button`. If the resource isn't defined on the parent, it continues to check the object's logical tree upward until it's found.
 
-If you define resources on the root element, all the elements in the logical tree, such as the <xref:System.Windows.Window> or <xref:System.Windows.Controls.Page>, can access it. And you can reuse the same resource for setting the value of any property that accepts the same type that the resource represents. In the previous example, the same `MyBrush` resource sets two different properties: [Button.Background](xref:System.Windows.Controls.Control.Background%2A) and [Rectangle.Fill](xref:System.Windows.Shapes.Shape.Fill%2A).
+If you define resources on the root element, all the elements in the logical tree, such as the <xref:System.Windows.Window> or <xref:System.Windows.Controls.Page>, can access it. And you can reuse the same resource for setting the value of any property that accepts the same type that the resource represents. In the previous example, the same `MyBrush` resource sets two different properties: [Button.Background](xref:System.Windows.Controls.Control.Background%2A) and [Ellipse.Fill](xref:System.Windows.Shapes.Shape.Fill%2A).
 
 ## Static and dynamic resources
 

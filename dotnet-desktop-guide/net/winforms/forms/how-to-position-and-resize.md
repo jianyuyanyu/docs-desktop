@@ -18,11 +18,9 @@ When a form is created, the size and location is initially set to a default valu
 
 You can change the size of a form at design time with Visual Studio, and at run time with code.
 
-[!INCLUDE [desktop guide under construction](../../includes/desktop-guide-preview-note.md)]
-
 ## Resize with the designer
 
-After [adding a new form](how-to-add.md) to the project, the size of a form is set in two different ways. First, you can set it is with the size grips in the designer. By dragging either the right edge, bottom edge, or the corner, you can resize the form.
+After [adding a new form](how-to-add.md) to the project, the size of a form is set in two different ways. First, you can set it with the size grips in the designer. By dragging either the right edge, bottom edge, or the corner, you can resize the form.
 
 :::image type="content" source="media/how-to-position-and-resize/designer-grips.png" alt-text="Right click solution explorer to add new form to windows forms project with grips":::
 
@@ -108,7 +106,7 @@ form.Show()
 
 ## Position with code
 
-Even though the designer can be used to set the starting location of a form, you can use code either change the starting position mode or set the location manually. Using code to position a form is useful if you need to manually position and size a form in relation to the screen or other forms.
+Even though the designer can be used to set the starting location of a form, you can use code to either change the starting position mode or set the location manually. Using code to position a form is useful if you need to manually position and size a form in relation to the screen or other forms.
 
 ### Move the current form
 
@@ -127,13 +125,13 @@ End Sub
 
 ### Position a different form
 
-You can change the location of another form after it's created by using the variable referencing the form. For example, let's say you have two forms, `Form1` (the startup form in this example) and `Form2`. `Form1` has a button that when clicked, invokes the `Click` event. The handler of this event creates a new instance of the `Form2` form and sets the size:
+You can change the location of another form after it's created by using the variable referencing the form. For example, let's say you have two forms, `Form1` (the startup form in this example) and `Form2`. `Form1` has a button that when clicked, invokes the `Click` event. The handler of this event creates a new instance of the `Form2` form and sets the location:
 
 ```csharp
 private void button1_Click(object sender, EventArgs e)
 {
     Form2 form = new Form2();
-    form.Size = new Size(250, 200);
+    form.Location = new Point(0, 0);
     form.Show();
 }
 ```
@@ -141,13 +139,13 @@ private void button1_Click(object sender, EventArgs e)
 ```vb
 Private Sub Button1_Click(sender As Object, e As EventArgs)
     Dim form = New Form2 With {
-        .Size = New Drawing.Size(250, 200)
+        .Location = New Drawing.Point(0, 0)
     }
     form.Show()
 End Sub
 ```
 
-If the `Size` isn't set, the form's default size is what it was set to at design-time.
+If the `Location` isn't set, the form's default position is based on what the `StartPosition` property was set to at design-time.
 
 ## See also
 

@@ -1,5 +1,6 @@
 ---
 title: Set the Sizing Modes of DataGridView Control
+description: Learn how to set the sizing modes of the Windows Forms DataGridView control by following the procedure in this article.
 ms.date: "03/30/2017"
 dev_langs: 
   - "csharp"
@@ -10,6 +11,7 @@ helpviewer_keywords:
 ms.assetid: e9ad15e6-b4bb-44aa-a767-3738e9db1651
 ---
 # How to: Set the Sizing Modes of the Windows Forms DataGridView Control
+
 The following procedures demonstrate some common scenarios that customize or combine the sizing options available for the <xref:System.Windows.Forms.DataGridView> control and for specific columns in a control.  
   
 ### To create a fixed-width column  
@@ -34,6 +36,7 @@ The following procedures demonstrate some common scenarios that customize or com
      [!code-vb[System.Windows.Forms.DataGridViewSizingScenarios#30](~/samples/snippets/visualbasic/VS_Snippets_Winforms/System.Windows.Forms.DataGridViewSizingScenarios/vb/sizingscenarios.vb#30)]  
   
 ## Example  
+
  The following complete code example provides a demonstration application that can help you understand the sizing options described in this topic.  
   
  [!code-csharp[System.Windows.Forms.DataGridViewSizingScenarios#00](~/samples/snippets/csharp/VS_Snippets_Winforms/System.Windows.Forms.DataGridViewSizingScenarios/CS/sizingscenarios.cs#00)]
@@ -46,6 +49,7 @@ The following procedures demonstrate some common scenarios that customize or com
 - Change the column sizes by dragging the column dividers with the mouse. Observe how some columns cannot be resized, and how resizable columns cannot be made narrower than their minimum widths.  
   
 ## Compiling the Code  
+
  This example requires:  
   
 - References to the System and System.Windows.Forms assemblies.  

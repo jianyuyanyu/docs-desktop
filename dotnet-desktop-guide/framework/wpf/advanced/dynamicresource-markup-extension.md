@@ -1,5 +1,6 @@
 ---
 title: "DynamicResource Markup Extension"
+description: Learn about the DynamicResource markup Extensible Application Markup Language (XAML) extension of Windows Presentation Foundation (WPF).
 ms.date: "03/30/2017"
 ms.custom: devdivchpfy22
 f1_keywords: 
@@ -11,6 +12,7 @@ helpviewer_keywords:
 ms.assetid: 7324f243-03af-4c2b-b0db-26ac6cdfcbe4
 ---
 # DynamicResource Markup Extension
+
 Provides a value for any XAML property attribute by deferring that value to be a reference to a defined resource. Lookup behavior for that resource is analogous to run-time lookup.  
   
 ## XAML Attribute Usage  
@@ -36,6 +38,7 @@ Provides a value for any XAML property attribute by deferring that value to be a
 |`key`|The key for the requested resource. This key was initially assigned by the [x:Key Directive](/dotnet/desktop/xaml-services/xkey-directive) if a resource was created in markup, or was provided as the `key` parameter when calling <xref:System.Windows.ResourceDictionary.Add%2A?displayProperty=nameWithType> if the resource was created in code.|  
   
 ## Remarks  
+
  A `DynamicResource` will create a temporary expression during the initial compilation and thus defer lookup for resources until the requested resource value is actually required in order to construct an object. This may potentially be after the XAML page is loaded. The resource value will be found based on key search against all active resource dictionaries starting from the current page scope, and is substituted for the placeholder expression from compilation.  
   
 > [!IMPORTANT]

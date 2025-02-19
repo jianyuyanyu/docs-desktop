@@ -1,5 +1,6 @@
 ---
 title: "How to: Wrap a Border Around the Content of a Canvas"
+description: Learn how to wrap a border around the content of a Canvas element in a Windows Presentation Foundation (WPF) application.
 ms.date: "03/30/2017"
 helpviewer_keywords: 
   - "controls [WPF], Canvas"
@@ -9,9 +10,11 @@ helpviewer_keywords:
 ms.assetid: caf0404f-f4e7-484f-9928-5dae1238d8ef
 ---
 # How to: Wrap a Border Around the Content of a Canvas
+
 This example shows how to wrap a <xref:System.Windows.Controls.Canvas> element with a <xref:System.Windows.Controls.Border>.  
   
 ## Example  
+
  The following example shows how to display `Hello World!` inside a <xref:System.Windows.Controls.Canvas> element. The <xref:System.Windows.Controls.Canvas> element is wrapped by a <xref:System.Windows.Controls.Border> element so that a border outlines the element.  
   
  [!code-xaml[CanvasHelloWorldBorder#1](~/samples/snippets/csharp/VS_Snippets_Wpf/CanvasHelloWorldBorder/CS/default.xaml#1)]  

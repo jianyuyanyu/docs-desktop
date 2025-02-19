@@ -1,5 +1,6 @@
 ---
 title: "How to: Position a ToolStripItem on a ToolStrip"
+description: Learn about how to position a ToolStripItem on the left or right of a ToolStrip by means of a 1-step procedure.
 ms.date: "03/30/2017"
 helpviewer_keywords: 
   - "ToolStrip control [Windows Forms], aligning items"
@@ -7,6 +8,7 @@ helpviewer_keywords:
 ms.assetid: 11fd7c5b-ee5c-4993-9a11-89127ff0aa7a
 ---
 # How to: Position a ToolStripItem on a ToolStrip
+
 You can move or add a <xref:System.Windows.Forms.ToolStripItem> to the left or right side of a <xref:System.Windows.Forms.ToolStrip>.  
   
 ### To move or add a ToolStripItem to the left side of a ToolStrip  

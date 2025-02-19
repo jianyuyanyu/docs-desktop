@@ -1,5 +1,6 @@
 ---
 title: "Working with Images, Bitmaps, Icons, and Metafiles"
+description: Learn about which articles you can read to learn more about working with images, bitmaps, icons, and metafiles.
 ms.date: "03/30/2017"
 helpviewer_keywords: 
   - "metafiles [Windows Forms], working with"
@@ -11,9 +12,11 @@ helpviewer_keywords:
 ms.assetid: a626d701-bd99-4fd8-b92f-7b8f794e042b
 ---
 # Working with Images, Bitmaps, Icons, and Metafiles
+
 GDI+ provides the `Bitmap` class for working with raster images and the `Metafile` class for working with vector images. The `Bitmap` and the `Metafile` classes both inherit from the `Image` class.  
   
 ## In This Section  
+
  [How to: Draw an Existing Bitmap to the Screen](how-to-draw-an-existing-bitmap-to-the-screen.md)  
  Describes how to load and draw bitmaps.  
   
@@ -45,6 +48,7 @@ GDI+ provides the `Bitmap` class for working with raster images and the `Metafil
  Describes how to extract an icon that is an embedded resource of a file.  
   
 ## Reference  
+
  <xref:System.Drawing.Image>  
  Describes this class and has links to all of its members.  
   
@@ -55,5 +59,6 @@ GDI+ provides the `Bitmap` class for working with raster images and the `Metafil
  Describes this class and has links to all of its members.  
   
 ## Related Sections  
+
  [Images, Bitmaps, and Metafiles](images-bitmaps-and-metafiles.md)  
  Contains links to topics that discuss different types of bitmaps and manipulating them in your applications.

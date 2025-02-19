@@ -1,5 +1,6 @@
 ---
 title: Set the Format for NumericUpDown Control
+description: Learn how to set the format for the Windows Forms NumericUpDown control, by means of code samples in Visual Basic, C#, and CPP.
 ms.date: "03/30/2017"
 dev_langs: 
   - "csharp"
@@ -11,6 +12,7 @@ helpviewer_keywords:
 ms.assetid: fa7c5557-6bfb-45b2-975d-8887b23b0ba0
 ---
 # How to: Set the Format for the Windows Forms NumericUpDown Control
+
 You can configure how values are displayed in the Windows Forms <xref:System.Windows.Forms.NumericUpDown> control. The <xref:System.Windows.Forms.NumericUpDown.DecimalPlaces%2A> property determines how many numbers appear after the decimal point; the default is 0. The <xref:System.Windows.Forms.NumericUpDown.ThousandsSeparator%2A> property determines whether a separator will be inserted between every three decimal digits; the default is `false`. The control can display values in hexadecimal instead of decimal format, if the <xref:System.Windows.Forms.NumericUpDown.Hexadecimal%2A> property is set to `true`; the default is `false`.  
   
 ### To format the numeric value  

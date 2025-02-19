@@ -15,8 +15,6 @@ helpviewer_keywords:
 
 Windows Forms controls are reusable components that encapsulate user interface functionality and are used in client-side, Windows-based applications. Not only does Windows Forms provide many ready-to-use controls, it also provides the infrastructure for developing your own controls. You can combine existing controls, extend existing controls, or author your own custom controls. For more information, see [Types of custom controls](custom.md).
 
-[!INCLUDE [desktop guide under construction](../../includes/desktop-guide-preview-note.md)]
-
 ## Adding controls
 
 Controls are added through the Visual Studio Designer. With the Designer, you can place, size, align, and move controls. Alternatively, controls can be added through code. For more information, see [Add a control (Windows Forms)](how-to-add-to-a-form.md).
@@ -31,12 +29,16 @@ For more information, see [Position and layout of controls](layout.md) and [How 
 
 ## Control events
 
-Controls provide a set of common events through the base class: <xref:System.Windows.Forms.Control>. Not every control responds to every event. For example, the <xref:System.Windows.Forms.Label> control doesn't respond to keyboard input, so the <xref:System.Windows.Forms.Control.PreviewKeyDown?displayProperty=nameWithType> event isn't raised. Most shared events fall under these categories:
+Controls provides more than 60 events through the base class <xref:System.Windows.Forms.Control>. These include the <xref:System.Windows.Forms.Control.Paint> event, which causes a control to be drawn, events related to displaying a window, such as the <xref:System.Windows.Forms.Control.Resize> and <xref:System.Windows.Forms.Control.Layout> events, and low-level mouse and keyboard events. Some low-level events are synthesized by <xref:System.Windows.Forms.Control> into semantic events such as <xref:System.Windows.Forms.Control.Click> and <xref:System.Windows.Forms.Control.DoubleClick>. Most shared events fall under these categories:
 
 - Mouse events
 - Keyboard events
 - Property changed events
 - Other events
+
+Not every control responds to every event. For example, the <xref:System.Windows.Forms.Label> control doesn't respond to keyboard input, and the <xref:System.Windows.Forms.Control.PreviewKeyDown?displayProperty=nameWithType> event isn't raised.
+
+Often, a control is a wrapper for an underlaying Win32 control, and using the <xref:System.Windows.Forms.Control.Paint> event to draw on top of the control may be limited or do nothing at all, since the control is ultimately drawn by Windows.
 
 For more information, see [Control events](events.md) and [How to handle a control event](how-to-add-an-event-handler.md).
 

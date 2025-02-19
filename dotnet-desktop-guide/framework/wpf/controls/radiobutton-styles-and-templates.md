@@ -1,5 +1,6 @@
 ---
 title: "RadioButton Styles and Templates"
+description: Learn about the styles and templates for the RadioButton control allowing you to modify the default ControlTemplate to give the control a unique appearance.
 ms.date: "03/30/2017"
 helpviewer_keywords: 
   - "styles [WPF], RadioButton"
@@ -11,12 +12,15 @@ helpviewer_keywords:
 ms.assetid: 9acf93f7-dd2f-4010-8ce0-1edd81c52ae2
 ---
 # RadioButton Styles and Templates
+
 This topic describes the styles and templates for the <xref:System.Windows.Controls.RadioButton> control. You can modify the default <xref:System.Windows.Controls.ControlTemplate> to give the control a unique appearance. For more information, see [Create a template for a control](how-to-create-apply-template.md).  
   
 ## RadioButton Parts  
+
  The <xref:System.Windows.Controls.RadioButton> control does not have any named parts.  
   
 ## RadioButton States  
+
  The following table lists the visual states for the <xref:System.Windows.Controls.RadioButton> control.  
   
 |VisualState Name|VisualStateGroup Name|Description|  
@@ -35,6 +39,7 @@ This topic describes the styles and templates for the <xref:System.Windows.Contr
 |InvalidUnfocused|ValidationStates|The <xref:System.Windows.Controls.Validation.HasError%2A?displayProperty=nameWithType> attached property is `true` has the control does not have focus.|  
   
 ## RadioButton ControlTemplate Example  
+
  The following example shows how to define a <xref:System.Windows.Controls.ControlTemplate> for the <xref:System.Windows.Controls.RadioButton> control.  
   
  [!code-xaml[ControlTemplateExamples#RadioButton](~/samples/snippets/csharp/VS_Snippets_Wpf/ControlTemplateExamples/CS/resources/radiobutton.xaml#radiobutton)]  

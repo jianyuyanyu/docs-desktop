@@ -1,5 +1,6 @@
 ---
 title: "How to: Determine Page Properties Using the PageSetupDialog Component"
+description: Learn how to determine page properties, like page layout, paper size and other layout choices by using the PageSetupDialog component
 ms.date: "03/30/2017"
 dev_langs: 
   - "csharp"
@@ -12,6 +13,7 @@ helpviewer_keywords:
 ms.assetid: 6dae05bc-c0fd-4357-bb93-841a1631d98f
 ---
 # How to: Determine Page Properties Using the PageSetupDialog Component
+
 The [PageSetupDialog](pagesetupdialog-component-windows-forms.md) component presents layout, paper size, and other page layout choices to the user for a document.  
   
  You need to specify an instance of the <xref:System.Drawing.Printing.PrintDocument> class—this is the document to be printed. Additionally, users must have a printer installed on their computer, either locally or through a network, as this is partly how the <xref:System.Windows.Forms.PageSetupDialog> component determines the page formatting choices presented to the user.  

@@ -5,11 +5,14 @@ helpviewer_keywords:
   - "toolbars [Windows Forms]"
   - "ToolStrip control [Windows Forms]"
 ms.assetid: e5ef455a-e049-429c-8005-30c93132fb79
+description: Learn how ToolStrip controls in Windows Forms are toolbars that can host menus, controls, and user controls.
 ---
 # ToolStrip Control (Windows Forms)
+
 <xref:System.Windows.Forms.ToolStrip> controls are toolbars that can host menus, controls, and user controls in your Windows Forms applications.  
   
 ## In This Section  
+
  [ToolStrip Control Overview](toolstrip-control-overview-windows-forms.md)  
  Explains what this control is and its key features and properties.  
   
@@ -76,6 +79,7 @@ ms.assetid: e5ef455a-e049-429c-8005-30c93132fb79
 - [Walkthrough: Creating an MDI Form with Menu Merging and ToolStrip Controls](walkthrough-creating-an-mdi-form-with-menu-merging-and-toolstrip-controls.md)  
   
 ## Reference  
+
  <xref:System.Windows.Forms.ToolStrip> class  
  Describes this class and has links to all its members.  
   
@@ -86,5 +90,6 @@ ms.assetid: e5ef455a-e049-429c-8005-30c93132fb79
  Describes the <xref:System.Windows.Forms.ToolStripItem> class and has links to all its members.  
   
 ## Related Sections  
+
  [Controls to Use on Windows Forms](controls-to-use-on-windows-forms.md)  
  Provides a complete list of Windows Forms controls, with links to information on their use.

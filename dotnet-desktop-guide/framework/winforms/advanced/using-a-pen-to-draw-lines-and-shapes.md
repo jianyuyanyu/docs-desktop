@@ -1,5 +1,6 @@
 ---
 title: "Using a Pen to Draw Lines and Shapes"
+description: Learn how to use a pen to draw lines, curves, and shapes in Windows Forms using a selection of topics and tutorials.
 ms.date: "03/30/2017"
 helpviewer_keywords: 
   - "pens"
@@ -9,9 +10,11 @@ helpviewer_keywords:
 ms.assetid: 8a7542ab-3e9e-443f-8405-2d6053528e20
 ---
 # Using a Pen to Draw Lines and Shapes
+
 Use GDI+ `Pen` objects to draw line segments, curves, and the outlines of shapes. In this section, *line* refers to any of these, unless specified to mean only a line segment. Set the properties of a pen to control the color, width, alignment, and style of lines drawn with that pen.  
   
 ## In This Section  
+
  [How to: Use a Pen to Draw Lines](how-to-use-a-pen-to-draw-lines.md)  
  Explains how to draw lines.  
   
@@ -34,5 +37,6 @@ Use GDI+ `Pen` objects to draw line segments, curves, and the outlines of shapes
  Explains how to draw a texture-filled line.  
   
 ## Reference  
+
  <xref:System.Drawing.Pen>  
  Describes this class and has links to all its members.

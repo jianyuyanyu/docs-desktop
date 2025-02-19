@@ -1,5 +1,6 @@
 ---
 title: "Application Settings Attributes"
+description: Learn how the Application Settings architecture provides many attributes that can be applied to the applications settings wrapper class or its properties.
 ms.date: "03/30/2017"
 helpviewer_keywords: 
   - "application settings [Windows Forms], attributes"
@@ -8,6 +9,7 @@ helpviewer_keywords:
 ms.assetid: 53caa66c-a9fb-43a5-953c-ad092590098d
 ---
 # Application Settings Attributes
+
 The Application Settings architecture provides many attributes that can be applied either to the applications settings wrapper class or its individual properties. These attributes are examined at run time by the application settings infrastructure, often specifically the settings provider, in order to tailor its functioning to the stated needs of the custom wrapper.  
   
  The following table lists the attributes that can be applied to the application settings wrapper class, this class's individual properties, or both. By definition, only a single scope attribute—**UserScopedSettingAttribute** or **ApplicationScopedSettingAttribute**—must be applied to each and every settings property.  

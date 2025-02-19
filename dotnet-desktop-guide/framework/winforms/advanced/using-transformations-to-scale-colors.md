@@ -1,5 +1,6 @@
 ---
 title: "Using Transformations to Scale Colors"
+description: Learn how to use transformations to scale colors in Windows Forms with code examples for scaling one or multiple colors.
 ms.date: "03/30/2017"
 dev_langs: 
   - "csharp"
@@ -10,16 +11,18 @@ helpviewer_keywords:
 ms.assetid: df23c887-7fd6-4b15-ad94-e30b5bd4b849
 ---
 # Using Transformations to Scale Colors
+
 A scaling transformation multiplies one or more of the four color components by a number. The color matrix entries that represent scaling are given in the following table.  
   
 |Component to be scaled|Matrix entry|  
 |----------------------------|------------------|  
-|Red|[0][0]|  
-|Green|[1][1]|  
-|Blue|[2][2]|  
-|Alpha|[3][3]|  
+|Red|`[0][0]`|  
+|Green|`[1][1]`|  
+|Blue|`[2][2]`|  
+|Alpha|`[3][3]`|  
   
 ## Scaling One Color  
+
  The following example constructs an <xref:System.Drawing.Image> object from the file ColorBars2.bmp. Then the code scales the blue component of each pixel in the image by a factor of 2. The original image is drawn alongside the transformed image.  
   
  [!code-csharp[System.Drawing.RecoloringImages#41](~/samples/snippets/csharp/VS_Snippets_Winforms/System.Drawing.RecoloringImages/CS/Class1.cs#41)]
@@ -39,6 +42,7 @@ A scaling transformation multiplies one or more of the four color components by 
 |(0.4, 0.4, 0.8, 1)|(0.4, 0.4, 0.6, 1)|  
   
 ## Scaling Multiple Colors  
+
  The following example constructs an <xref:System.Drawing.Image> object from the file ColorBars2.bmp. Then the code scales the red, green, and blue components of each pixel in the image. The red components are scaled down 25 percent, the green components are scaled down 35 percent, and the blue components are scaled down 50 percent.  
   
  [!code-csharp[System.Drawing.RecoloringImages#42](~/samples/snippets/csharp/VS_Snippets_Winforms/System.Drawing.RecoloringImages/CS/Class1.cs#42)]
@@ -46,7 +50,7 @@ A scaling transformation multiplies one or more of the four color components by 
   
  The following illustration shows the original image on the left and the scaled image on the right:  
   
- ![Screenshot that compares the original and scaled colors.](./media/using-transformations-to-scale-colors/four-bar-scale-multiple-colors.png)  
+ ![Screenshot that compares the original and scaled red, green, and blue components.](./media/using-transformations-to-scale-colors/four-bar-scale-multiple-colors.png)  
   
  The following table lists the color vectors for the four bars before and after the red, green and blue scaling.  
   

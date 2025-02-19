@@ -1,5 +1,6 @@
 ---
 title: Work with Image Columns in DataGridView Control
+description: Learn how to work with image columns in the Windows Forms DataGridView Control, by means of code examples in CPP, C#, and Visual Basic.
 ms.date: "03/30/2017"
 dev_langs: 
   - "csharp"
@@ -12,14 +13,17 @@ helpviewer_keywords:
 ms.assetid: 8a37aa75-3c6e-4893-91d0-7a5f34bfe287
 ---
 # How to: Work with Image Columns in the Windows Forms DataGridView Control
+
 The following code example shows how to use the <xref:System.Windows.Forms.DataGridView> image columns in an interactive user interface (UI). The example also demonstrates image sizing and layout possibilities with the <xref:System.Windows.Forms.DataGridViewImageColumn>.  
   
 ## Example  
+
  [!code-cpp[System.Windows.Forms.DataGridView.ImageColumn_TicTacToe#0](~/samples/snippets/cpp/VS_Snippets_Winforms/System.Windows.Forms.DataGridView.ImageColumn_TicTacToe/CPP/tictactoe.cpp#0)]
  [!code-csharp[System.Windows.Forms.DataGridView.ImageColumn_TicTacToe#0](~/samples/snippets/csharp/VS_Snippets_Winforms/System.Windows.Forms.DataGridView.ImageColumn_TicTacToe/CS/tictactoe.cs#0)]
  [!code-vb[System.Windows.Forms.DataGridView.ImageColumn_TicTacToe#0](~/samples/snippets/visualbasic/VS_Snippets_Winforms/System.Windows.Forms.DataGridView.ImageColumn_TicTacToe/VB/tictactoe.vb#0)]  
   
 ## Compiling the Code  
+
  This example requires:  
   
 - References to the System and System.Windows.Forms assemblies.  

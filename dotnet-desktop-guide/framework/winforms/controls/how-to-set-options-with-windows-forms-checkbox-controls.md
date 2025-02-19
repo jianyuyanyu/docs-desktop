@@ -1,5 +1,6 @@
 ---
 title: Set Options with CheckBox Controls
+description: Learn about how to set options with Windows Forms CheckBox controls, which are used to give users True/False or Yes/No options.
 ms.date: "03/30/2017"
 dev_langs: 
   - "csharp"
@@ -14,6 +15,7 @@ helpviewer_keywords:
 ms.assetid: 2ac70498-7e3e-4e07-8901-ccabaeb5fd3e
 ---
 # How to: Set Options with Windows Forms CheckBox Controls
+
 A Windows Forms <xref:System.Windows.Forms.CheckBox> control is used to give users True/False or Yes/No options. The control displays a check mark when it is selected.  
   
 ### To set options with CheckBox controls  

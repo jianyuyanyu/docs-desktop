@@ -8,8 +8,10 @@ helpviewer_keywords:
   - "MDI [Windows Forms], creating window lists"
   - "MenuStrip control [Windows Forms], creating window lists"
 ms.assetid: 04fb414b-811f-4a83-aab6-b4a24646dec5
+description: Learn how to create an MDI Window list with MenuStrip of all the active child forms on the parent's Window menu.  
 ---
 # How to: Create an MDI Window List with MenuStrip (Windows Forms)
+
 Use the multiple-document interface (MDI) to create applications that can open several documents at the same time and copy and paste content from one document to the other.  
   
  This procedure shows you how to create a list of all the active child forms on the parent's Window menu.  
@@ -22,7 +24,7 @@ Use the multiple-document interface (MDI) to create applications that can open s
   
 3. Add two top-level menu items to the <xref:System.Windows.Forms.MenuStrip> and set their <xref:System.Windows.Forms.Control.Text%2A> properties to `&File` and `&Window`.  
   
-4. Add a submenu item to the `&File` menu item and set its <xref:System.Windows.Forms.ToolStripItem.Text%2A> property to `&Open`.  
+4. Add two submenu items to the `&File` menu item and set their <xref:System.Windows.Forms.ToolStripItem.Text%2A> properties to `&Open` and `&New`.  
   
 5. Set the <xref:System.Windows.Forms.MenuStrip.MdiWindowListItem%2A> property of the <xref:System.Windows.Forms.MenuStrip> to the `&Window`<xref:System.Windows.Forms.ToolStripMenuItem>.  
   
@@ -55,18 +57,8 @@ Use the multiple-document interface (MDI) to create applications that can open s
     }  
     ```  
   
-9. Place code like the following in the `&New`<xref:System.Windows.Forms.ToolStripMenuItem> to register the event handler.  
-  
-    ```vb  
-    Private Sub newToolStripMenuItem_Click(sender As Object, e As _  
-    EventArgs) Handles newToolStripMenuItem.Click  
-    ```  
-  
-    ```csharp  
-    this.newToolStripMenuItem.Click += new System.EventHandler(this.newToolStripMenuItem_Click);  
-    ```  
-  
 ## Compiling the Code  
+
  This example requires:  
   
 - Two <xref:System.Windows.Forms.Form> controls named `Form1` and `Form2`.  

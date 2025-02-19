@@ -1,5 +1,6 @@
 ---
 title: "WPF Host (PresentationHost.exe)"
+description: Learn about Windows Presentation Foundation (WPF) Host (PresentationHost.exe), which enables WPF applications to be hosted in compatible browsers.
 titleSuffix: ""
 ms.date: "03/30/2017"
 helpviewer_keywords: 
@@ -8,6 +9,9 @@ helpviewer_keywords:
 ms.assetid: 3215bfa1-722c-4ac8-a7c5-bdd02d30afbd
 ---
 # WPF Host (PresentationHost.exe)
+
+[!INCLUDE [xbap-unsupported](~/framework/wpf/includes/xbap-unsupported.md)]
+
 Windows Presentation Foundation (WPF) Host (PresentationHost.exe) is the application that enables WPF applications to be hosted in compatible browsers (including Microsoft Internet Explorer 6 and later). By default, Windows Presentation Foundation (WPF) Host is registered as the shell and MIME handler for browser-hosted WPF content, which includes:  
   
 - Loose (uncompiled) XAML files (.xaml).  
@@ -25,6 +29,7 @@ Windows Presentation Foundation (WPF) Host (PresentationHost.exe) is the applica
  This topic describes the command line parameters that can be used with PresentationHost.exe.  
   
 ## Usage  
+
  `PresentationHost.exe [parameters] uri|filename`  
   
 ## Parameters  
@@ -41,15 +46,19 @@ Windows Presentation Foundation (WPF) Host (PresentationHost.exe) is the applica
 ## Scenarios  
   
 ### Shell Handler  
+
  `PresentationHost.exe example.xbap`  
   
 ### MIME Handler  
+
  `PresentationHost.exe -embedding example.xbap`  
   
 ### Visual Studio Debugging  
+
  `PresentationHost.exe -debug example.xbap`  
   
 ### Visual Studio Debugging In Zone  
+
  `PresentationHost.exe -debug -debugSecurityZoneURL http://www.example.com c:\folderpath\example.xbap`  
   
 ## See also

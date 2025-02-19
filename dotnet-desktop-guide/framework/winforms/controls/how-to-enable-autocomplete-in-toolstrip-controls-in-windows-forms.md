@@ -1,5 +1,6 @@
 ---
 title: "How to: Enable AutoComplete in ToolStrip Controls"
+description: Learn how to enable AutoComplete in ToolStrip Controls so that items are displayed when users type characters that match a list.
 ms.date: "03/30/2017"
 dev_langs: 
   - "csharp"
@@ -14,6 +15,7 @@ helpviewer_keywords:
 ms.assetid: fd66d085-1af1-45d4-930a-cde944da2e16
 ---
 # How to: Enable AutoComplete in ToolStrip Controls in Windows Forms
+
 The following procedure combines a <xref:System.Windows.Forms.ToolStripLabel> with a <xref:System.Windows.Forms.ToolStripComboBox> that can be dropped down to show a list of items, such as recently visited Web sites. If the user types a character that matches the first character of one of the items in the list, the item is immediately displayed.  
   
 > [!NOTE]

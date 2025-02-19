@@ -1,5 +1,6 @@
 ---
 title: Group Controls with Panel Control Using the Designer
+description: Learn how to group controls with the Windows Forms Panel control by using the Designer. Learn about the reasons to group controls.
 ms.date: "03/30/2017"
 helpviewer_keywords:
   - "Panel control [Windows Forms], grouping controls"
@@ -8,6 +9,7 @@ helpviewer_keywords:
 ms.assetid: 7e1cd708-fdb1-49d8-9ca2-5640b276bf2e
 ---
 # How to: Group Controls with the Windows Forms Panel Control Using the Designer
+
 Windows Forms <xref:System.Windows.Forms.Panel> controls are used to group other controls. There are three reasons to group controls. One is visual grouping of related form elements for a clear user interface; another is programmatic grouping, of radio buttons for example; the last is for moving the controls as a unit at design time.
 
 ## To create a group of controls

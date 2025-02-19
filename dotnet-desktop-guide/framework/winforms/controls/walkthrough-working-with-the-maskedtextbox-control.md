@@ -1,5 +1,6 @@
 ---
 title: "Walkthrough: Working with the MaskedTextBox Control"
+description: Learn how to use the MaskedTextBox control to alert users when the value they're attempting to commit is not valid for the type.  
 ms.date: "03/30/2017"
 dev_langs: 
   - "csharp"
@@ -13,6 +14,7 @@ helpviewer_keywords:
 ms.assetid: df60565e-5447-4110-92a6-be1f6ff5faa3
 ---
 # Walkthrough: Working with the MaskedTextBox Control
+
 Tasks illustrated in this walkthrough include:  
   
 - Initializing the <xref:System.Windows.Forms.MaskedTextBox> control  

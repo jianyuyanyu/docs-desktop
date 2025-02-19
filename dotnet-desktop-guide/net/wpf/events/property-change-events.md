@@ -1,7 +1,8 @@
 ---
 title: "Property change events"
 description: Learn about the property changed events and property triggers in Windows Presentation Foundation (WPF).
-ms.date: "04/07/2022"
+ms.date: 10/24/2024
+ms.custom: update-template
 helpviewer_keywords:
   - "dependency properties [WPF], change events"
   - "property value changes [WPF]"
@@ -19,8 +20,6 @@ helpviewer_keywords:
 # Property change events (WPF .NET)
 
 Windows Presentation Foundation (WPF) defines several events that are raised in response to a change in the value of a property. Often the property is a dependency property. The event itself can be a routed event or a standard common language runtime (CLR) event, depending on whether the event should be routed through an element tree, or occur only on the object where the property changed. The latter scenario applies when a property change is only relevant to the object where the property value changed.
-
-[!INCLUDE [desktop guide under construction](../../includes/desktop-guide-preview-note.md)]
 
 ## Prerequisites
 

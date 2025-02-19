@@ -1,5 +1,6 @@
 ---
 title: "Deactivate Function - WPF unmanaged API reference"
+description: Learn about the Deactivate function of the Windows Presentation Foundation (WPF) unmanaged API reference.
 titleSuffix: ""
 ms.date: "03/30/2017"
 dev_langs: 
@@ -11,6 +12,7 @@ api_location:
 ms.assetid: 3e81be16-24c7-4399-b242-6268feaa49d7
 ---
 # Deactivate Function (WPF Unmanaged API Reference)
+
 This API supports the Windows Presentation Foundation (WPF) infrastructure and is not intended to be used directly from your code.  
   
  Used by the Windows Presentation Foundation (WPF) infrastructure for windows management.  
@@ -22,6 +24,7 @@ void Deactivate()
 ```  
   
 ## Requirements  
+
  **Platforms:** See [.NET Framework System Requirements](/dotnet/framework/get-started/system-requirements).  
   
  **DLL:**  

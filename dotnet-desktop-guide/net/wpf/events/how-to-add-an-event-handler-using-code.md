@@ -1,7 +1,8 @@
 ---
 title: "How to add an event handler using code"
 description: Learn how to add an event handler in code-behind for an element in Windows Presentation Foundation (WPF).
-ms.date: "02/01/2021"
+ms.date: 10/24/2024
+ms.custom: update-template
 dev_langs:
   - "csharp"
   - "vb"
@@ -18,8 +19,6 @@ You can assign an event handler to an element in Windows Presentation Foundation
 - You assign an event handler to an element after the markup page that contains the element loads.
 - You add an element and assign its event handler after the markup page that will contain the element loads.
 - You define the element tree for your application entirely in code.
-
-[!INCLUDE [desktop guide under construction](../../includes/desktop-guide-preview-note.md)]
 
 ## Prerequisites
 

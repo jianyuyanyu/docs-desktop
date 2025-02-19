@@ -1,5 +1,6 @@
 ---
 title: "How to: Render a Visual Style Element"
+description: Learn how to render a visual style element in Windows Forms by means of a 2-step procedure, with code examples in CPP, C#, and Visual Basic.
 ms.date: "03/30/2017"
 dev_langs: 
   - "csharp"
@@ -12,6 +13,7 @@ helpviewer_keywords:
 ms.assetid: a207781b-1baa-4ce9-b788-1e951bd4b5df
 ---
 # How to: Render a Visual Style Element
+
 The <xref:System.Windows.Forms.VisualStyles?displayProperty=nameWithType> namespace exposes <xref:System.Windows.Forms.VisualStyles.VisualStyleElement> objects that represent the Windows user interface (UI) elements supported by visual styles. This topic demonstrates how to use the <xref:System.Windows.Forms.VisualStyles.VisualStyleRenderer> class to render the <xref:System.Windows.Forms.VisualStyles.VisualStyleElement> that represents the **Log Off** and **Shut Down** buttons of the Start menu.  
   
 ### To render a visual style element  
@@ -29,6 +31,7 @@ The <xref:System.Windows.Forms.VisualStyles?displayProperty=nameWithType> namesp
      [!code-vb[System.Windows.Forms.VisualStyles.VisualStyleRenderer_Simple#6](~/samples/snippets/visualbasic/VS_Snippets_Winforms/System.Windows.Forms.VisualStyles.VisualStyleRenderer_Simple/VB/form1.vb#6)]  
   
 ## Compiling the Code  
+
  This example requires:  
   
 - A custom control derived from the <xref:System.Windows.Forms.Control> class.  

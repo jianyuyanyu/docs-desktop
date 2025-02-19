@@ -1,5 +1,6 @@
 ---
 title: "How to: Implement the IListSource Interface"
+description: Learn how to implement the IListSource Interface so that it is able to provide a list from another location.
 ms.date: "03/30/2017"
 dev_langs: 
   - "csharp"
@@ -10,9 +11,11 @@ helpviewer_keywords:
 ms.assetid: 63ce27aa-2e23-4fbd-8228-0c1726f6c421
 ---
 # How to: Implement the IListSource Interface
+
 Implement the <xref:System.ComponentModel.IListSource> interface to create a bindable class that does not implement <xref:System.Collections.IList> but instead provides a list from another location.  
   
 ## Example  
+
  The following code example demonstrates how to implement the <xref:System.ComponentModel.IListSource> interface. A component named `EmployeeListSource` exposes an <xref:System.Collections.IList> for data binding by implementing the <xref:System.ComponentModel.IListSource.GetList%2A> method.  
   
  [!code-csharp[System.ComponentModel.IListSource#1](~/samples/snippets/csharp/VS_Snippets_Winforms/System.ComponentModel.IListSource/CS/EmployeeListSource.cs#1)]
@@ -28,6 +31,7 @@ Implement the <xref:System.ComponentModel.IListSource> interface to create a bin
  [!code-vb[System.ComponentModel.IListSource#1000](~/samples/snippets/visualbasic/VS_Snippets_Winforms/System.ComponentModel.IListSource/VB/Form1.vb#1000)]  
   
 ## Compiling the Code  
+
  This example requires:  
   
 - References to the System.Drawing and System.Windows.Forms assemblies.  

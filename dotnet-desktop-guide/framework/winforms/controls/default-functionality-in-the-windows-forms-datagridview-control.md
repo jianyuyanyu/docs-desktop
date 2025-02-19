@@ -1,5 +1,6 @@
 ---
 title: Default Functionality in DataGridView Control
+description: Learn about the default functionality in the Windows Forms DataGridView control, which is able to be edited by default.
 ms.date: "03/30/2017"
 helpviewer_keywords: 
   - "data grids [Windows Forms], default functionality in DataGridView control"
@@ -7,9 +8,11 @@ helpviewer_keywords:
 ms.assetid: 4405f697-cad1-4839-9bcd-8ddb09d9f00e
 ---
 # Default Functionality in the Windows Forms DataGridView Control
+
 The Windows Forms <xref:System.Windows.Forms.DataGridView> control provides users with a significant amount of default functionality.  
   
 ## Default Functionality  
+
  By default, a <xref:System.Windows.Forms.DataGridView> control:  
   
 - Automatically displays column headers and row headers that remain visible as the table scrolls vertically.  

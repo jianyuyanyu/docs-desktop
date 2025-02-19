@@ -1,5 +1,6 @@
 ---
 title: "How to: Add Enhancements to ToolStripMenuItems"
+description: Learn how you can add enhancements to the usability of the MenuStrip and ContextMenuStrip controls.
 ms.date: "03/30/2017"
 dev_langs: 
   - "csharp"
@@ -26,6 +27,7 @@ helpviewer_keywords:
 ms.assetid: aa5f19bb-b545-4378-bfa6-36ba592f0d7c
 ---
 # How to: Add Enhancements to ToolStripMenuItems
+
 You can enhance the usability of <xref:System.Windows.Forms.MenuStrip> and <xref:System.Windows.Forms.ContextMenuStrip> controls in the following ways:  
   
 - Add check marks to designate whether a feature is turned on or off, such as whether a ruler is displayed along the margin of a word-processing application, or to indicate which file in a list of files is being displayed, such as on a **Window** menu.  

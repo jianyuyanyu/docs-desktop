@@ -7,8 +7,10 @@
       "locale": "en-us",
       "moniker_ranges": [
         "netframeworkdesktop-4.8",
-        "netdesktop-5.0",
-        "netdesktop-6.0"
+        "netdesktop-6.0",
+        "netdesktop-7.0",
+        "netdesktop-8.0",
+        "netdesktop-9.0"
       ],
       "filemap_share_depots": [
         "VS.dotnet-api-docs"
@@ -64,5 +66,10 @@
   },
   "docs_build_engine": {
     "name": "docfx_v3"
-  }
+  },
+  "redirection_files": [
+    ".openpublishing.redirection.json",
+    ".openpublishing.redirection.winforms.json",
+    ".openpublishing.redirection.wpf.json"
+  ]
 }

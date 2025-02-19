@@ -1,14 +1,17 @@
 ---
 title: "How to: Make Sure That a GridSplitter Is Visible"
+description: Learn how to prevent a GridSplitter control from being hidden by other controls in a Windows Presentation Foundation (WPF) application.
 ms.date: "03/30/2017"
 helpviewer_keywords: 
   - "GridSplitter control [WPF], ensuring visibility of"
 ms.assetid: 0a62a964-89c8-48f0-9023-5df721a8cf47
 ---
 # How to: Make Sure That a GridSplitter Is Visible
+
 This example shows how to make sure a <xref:System.Windows.Controls.GridSplitter> control is not hidden by the other controls in a <xref:System.Windows.Controls.Grid>.  
   
 ## Example  
+
  The <xref:System.Windows.Controls.Panel.Children%2A> of a <xref:System.Windows.Controls.Grid> control are rendered in the order that they are defined in markup or code. <xref:System.Windows.Controls.GridSplitter> controls can be hidden by other controls if you do not define them as the last elements in the <xref:System.Windows.Controls.Panel.Children%2A> collection or if you give other controls a higher <xref:System.Windows.Controls.Panel.ZIndexProperty>.  
   
  To prevent hidden <xref:System.Windows.Controls.GridSplitter> controls, do one of the following.  

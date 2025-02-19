@@ -1,5 +1,6 @@
 ---
 title: Select an Item in ListView Control
+description: Learn about how to select an item in the Windows Forms ListView control, by means of C# and Visual Basic code examples.
 ms.date: "03/30/2017"
 dev_langs: 
   - "csharp"
@@ -12,13 +13,16 @@ helpviewer_keywords:
 ms.assetid: ddea918e-1ddf-47f4-bd09-1e9b4c9d0c39
 ---
 # How to: Select an Item in the Windows Forms ListView Control
+
 This example demonstrates how to programmatically select an item in a Windows Forms <xref:System.Windows.Forms.ListView> control. Selecting an item programmatically does not automatically change the focus to the <xref:System.Windows.Forms.ListView> control. For this reason, you will typically also want to set the item as focused when selecting an item.  
   
 ## Example  
+
  [!code-csharp[System.Windows.Forms.ListView.Misc#1](~/samples/snippets/csharp/VS_Snippets_Winforms/System.Windows.Forms.ListView.Misc/CS/form1.cs#1)]
  [!code-vb[System.Windows.Forms.ListView.Misc#1](~/samples/snippets/visualbasic/VS_Snippets_Winforms/System.Windows.Forms.ListView.Misc/VB/form1.vb#1)]  
   
 ## Compiling the Code  
+
  This example requires:  
   
 - A <xref:System.Windows.Forms.ListView> control named `listView1` that contains at least one item.  

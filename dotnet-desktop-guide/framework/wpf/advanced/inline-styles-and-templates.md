@@ -1,5 +1,6 @@
 ---
 title: "Inline Styles and Templates"
+description: Learn about inline styles and templates and how to make resource references to existing styles and templates rather than define new ones inline. 
 ms.date: "03/30/2017"
 helpviewer_keywords: 
   - "inline templates [WPF]"
@@ -9,9 +10,11 @@ helpviewer_keywords:
 ms.assetid: 69a1a3f9-acb5-4e2c-9c43-2e376c055ac4
 ---
 # Inline Styles and Templates
-XAML that take the types <xref:System.Windows.Style> and <xref:System.Windows.FrameworkTemplate> almost always make resource references to existing styles and templates rather than define new ones inline.  
+
+Windows Presentation Foundation (WPF) provides <xref:System.Windows.Style> objects and template objects (<xref:System.Windows.FrameworkTemplate> subclasses) as a way to define the visual appearance of an element in resources, so that they can be used multiple times. For this reason, attributes in XAML that take the types <xref:System.Windows.Style> and <xref:System.Windows.FrameworkTemplate> almost always make resource references to existing styles and templates rather than define new ones inline.  
   
 ## Limitations of Inline Styles and Templates  
+
  In Extensible Application Markup Language (XAML), style and template properties can technically be set in one of two ways. You can use attribute syntax to reference a style that was defined within a resource, for example `<`*object*`Style="{StaticResource`*myResourceKey*`}" .../>`. Or you can use property element syntax to define a style inline, for instance:  
   
  `<` *object* `>`  

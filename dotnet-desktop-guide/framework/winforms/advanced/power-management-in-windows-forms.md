@@ -1,5 +1,6 @@
 ---
 title: "Power Management"
+description: Learn how Windows Forms applications can use power management features in the Windows operating system to monitor a computer's power status and take action.
 ms.date: "03/30/2017"
 dev_langs: 
   - "csharp"
@@ -10,6 +11,7 @@ helpviewer_keywords:
 ms.assetid: ad04a801-5682-4d88-92c5-26eb9cdb209a
 ---
 # Power Management in Windows Forms
+
 Your Windows Forms applications can take advantage of the power management features in the Windows operating system. Your applications can monitor the power status of a computer and take action when a status change occurs. For example, if your application is running on a portable computer, you might want to disable certain features in your application when the computer's battery charge falls under a certain level.  
   
  The .NET Framework provides a <xref:Microsoft.Win32.SystemEvents.PowerModeChanged> event that occurs whenever there is a change in power status, such as when a user suspends or resumes the operating system, or when the AC power status or battery status changes. The <xref:System.Windows.Forms.SystemInformation.PowerStatus%2A> property of the <xref:System.Windows.Forms.SystemInformation> class can be used to query for the current status, as shown in the following code example.  

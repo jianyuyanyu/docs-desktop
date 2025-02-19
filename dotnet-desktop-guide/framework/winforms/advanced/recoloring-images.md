@@ -1,5 +1,6 @@
 ---
 title: "Recoloring Images"
+description: Learn more about various ways to recolor images in GDI+ with a selection of topics and tutorials that provide examples.
 ms.date: "03/30/2017"
 helpviewer_keywords: 
   - "images [Windows Forms], recoloring"
@@ -8,9 +9,11 @@ helpviewer_keywords:
 ms.assetid: f28c54fd-9c80-4f6f-b242-55f7ffcda84b
 ---
 # Recoloring Images
+
 Recoloring is the process of adjusting image colors. Some examples of recoloring are changing one color to another, adjusting a color's intensity relative to another color, adjusting the brightness or contrast of all colors, and converting colors to shades of gray.  
   
 ## In This Section  
+
  [How to: Use a Color Matrix to Transform a Single Color](how-to-use-a-color-matrix-to-transform-a-single-color.md)  
  Discusses using a color matrix to transform a color.  
   
@@ -30,6 +33,7 @@ Recoloring is the process of adjusting image colors. Some examples of recoloring
  Defines remapping and shows how to use a color remap table.  
   
 ## Reference  
+
  <xref:System.Drawing.Imaging.ColorMatrix>  
  Describes this class and contains links to all of its members.  
   
@@ -37,6 +41,7 @@ Recoloring is the process of adjusting image colors. Some examples of recoloring
  Describes this class and contains links to all of its members.  
   
 ## Related Sections  
+
  [Images, Bitmaps, and Metafiles](images-bitmaps-and-metafiles.md)  
  Provides a list of topics regarding the different types of images.  
   

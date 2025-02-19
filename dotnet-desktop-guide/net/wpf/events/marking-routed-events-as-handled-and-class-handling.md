@@ -1,7 +1,8 @@
 ---
 title: "Marking routed events as handled, and class handling"
 description: Learn about class handling of routed events in Windows Presentation Foundation (WPF) and when to mark a routed event as handled.
-ms.date: "03/21/2022"
+ms.date: 10/24/2024
+ms.custom: update-template
 dev_langs:
   - "csharp"
   - "vb"
@@ -28,8 +29,6 @@ helpviewer_keywords:
 Although there's no absolute rule for when to mark a routed event as handled, consider marking an event as handled if your code responds to the event in a significant way. A routed event that's marked as handled will continue along its route, but only handlers that are configured to respond to handled events are invoked. Basically, marking a routed event as handled limits its visibility to listeners along the event route.
 
 Routed event handlers can be either instance handlers or class handlers. Instance handlers handle routed events on objects or XAML elements. Class handlers handle a routed event at a class level, and are invoked before any instance handler responding to the same event on any instance of the class. When routed events are marked as handled, they're often marked as such within class handlers. This article discusses the benefits and potential pitfalls of marking routed events as handled, the different types of routed events and routed event handlers, and event suppression in composite controls.
-
-[!INCLUDE [desktop guide under construction](../../includes/desktop-guide-preview-note.md)]
 
 ## Prerequisites
 

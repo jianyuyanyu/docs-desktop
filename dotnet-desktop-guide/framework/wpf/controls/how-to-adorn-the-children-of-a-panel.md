@@ -1,5 +1,6 @@
 ---
 title: "How to: Adorn the Children of a Panel"
+description: Learn how to adorn the children of a panel by means of the included code samples in C# and Visual Basic.
 ms.date: "03/30/2017"
 dev_langs: 
   - "csharp"
@@ -10,9 +11,11 @@ helpviewer_keywords:
 ms.assetid: 4cc9b972-b472-4e5c-bdf3-3702d7fbb1f5
 ---
 # How to: Adorn the Children of a Panel
+
 This example shows how to programmatically bind an adorner to the children of a specified <xref:System.Windows.Controls.Panel>.  
   
 ## Example  
+
  To bind an adorner to the children of a <xref:System.Windows.Controls.Panel>, follow these steps:  
   
 1. Declare a new <xref:System.Windows.Documents.AdornerLayer> object and call the `static`<xref:System.Windows.Documents.AdornerLayer.GetAdornerLayer%2A> method to find an adorner layer for the element whose children are to be adorned.  

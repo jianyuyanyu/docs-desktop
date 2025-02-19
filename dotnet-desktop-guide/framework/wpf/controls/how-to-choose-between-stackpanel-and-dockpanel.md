@@ -1,10 +1,10 @@
 ---
 title: "How to: Choose Between StackPanel and DockPanel"
-ms.date: "03/30/2017"
+description: Learn how to choose between StackPanel and DockPanel when you stack content in a Panel, by means of code examples in CPP, C#, Visual Basic, and XAML.
+ms.date: 03/16/2023
 dev_langs:
   - "csharp"
   - "vb"
-  - "cpp"
 helpviewer_keywords:
   - "controls [WPF], DockPanel"
   - "DockPanel control [WPF], StackPanel control compared to"
@@ -12,18 +12,26 @@ helpviewer_keywords:
   - "controls [WPF], StackPanel"
 ms.assetid: f9239086-451f-42e6-81f7-ef89ef349742
 ---
-# How to: Choose Between StackPanel and DockPanel
-This example shows how to choose between using a <xref:System.Windows.Controls.StackPanel> or a <xref:System.Windows.Controls.DockPanel> when you stack content in a <xref:System.Windows.Controls.Panel>.
+# How to: Choose between StackPanel and DockPanel
 
-## Example
- Although you can use either <xref:System.Windows.Controls.DockPanel> or <xref:System.Windows.Controls.StackPanel> to stack child elements, the two controls do not always produce the same results. For example, the order that you place child elements can affect the size of child elements in a <xref:System.Windows.Controls.DockPanel> but not in a <xref:System.Windows.Controls.StackPanel>. This different behavior occurs because <xref:System.Windows.Controls.StackPanel> measures in the direction of stacking at [Double.PositiveInfinity](xref:System.Double.PositiveInfinity); however, <xref:System.Windows.Controls.DockPanel> measures only the available size.
+Although you can use either <xref:System.Windows.Controls.DockPanel> or <xref:System.Windows.Controls.StackPanel> to stack child elements, the two controls do not always produce the same results. For example, the order that you place child elements can affect the size of child elements in a <xref:System.Windows.Controls.DockPanel> but not in a <xref:System.Windows.Controls.StackPanel>. This different behavior occurs because <xref:System.Windows.Controls.StackPanel> measures in the direction of stacking at [Double.PositiveInfinity](xref:System.Double.PositiveInfinity); however, <xref:System.Windows.Controls.DockPanel> measures only the available size.
 
- The following example demonstrates this key difference between <xref:System.Windows.Controls.DockPanel> and <xref:System.Windows.Controls.StackPanel>.
+The examples in this article create a <xref:System.Windows.Controls.Grid> with two panels, which looks like the following image:
 
- [!code-cpp[StackPanelOvw4#1](~/samples/snippets/cpp/VS_Snippets_Wpf/StackPanelOvw4/CPP/StackPanel_Ovw_Sample4.cpp#1)]
- [!code-csharp[StackPanelOvw4#1](~/samples/snippets/csharp/VS_Snippets_Wpf/StackPanelOvw4/CSharp/StackPanel_Ovw_Sample4.cs#1)]
- [!code-vb[StackPanelOvw4#1](~/samples/snippets/visualbasic/VS_Snippets_Wpf/StackPanelOvw4/VisualBasic/StackPanelSamp.vb#1)]
- [!code-xaml[StackPanelOvw4#1](~/samples/snippets/xaml/VS_Snippets_Wpf/StackPanelOvw4/XAML/default.xaml#1)]
+:::image type="content" source="./media/how-to-choose-between-stackpanel-and-dockpanel/example.png" alt-text="A grid with two panels and hearts.":::
+
+## XAML example
+
+The following example demonstrates the key difference between <xref:System.Windows.Controls.DockPanel> and <xref:System.Windows.Controls.StackPanel> when designing a page in XAML.
+
+:::code language="xaml" source="./snippets/how-to-choose-between-stackpanel-and-dockpanel/xaml/MainWindow.xaml" id="EmojiViewBox":::
+
+## Code-based example
+
+The following example demonstrates the key difference between <xref:System.Windows.Controls.DockPanel> and <xref:System.Windows.Controls.StackPanel>. This code is run in the `Window.Loaded` event handler:
+
+:::code language="csharp" source="./snippets/how-to-choose-between-stackpanel-and-dockpanel/csharp/MainWindow.xaml.cs" id="EmojiViewBox":::
+:::code language="vb" source="./snippets/how-to-choose-between-stackpanel-and-dockpanel/vb/MainWindow.xaml.vb" id="EmojiViewBox":::
 
 ## See also
 

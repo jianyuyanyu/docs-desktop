@@ -1,5 +1,6 @@
 ---
 title: "How to: Support COM Interop by Displaying Each Windows Form on Its Own Thread"
+description: Learn how to resolve COM interoperability problems by displaying a form on a .NET Framework message loop.
 ms.date: "03/30/2017"
 dev_langs:
   - "vb"
@@ -39,7 +40,7 @@ This approach requires that each instance of a form runs on its own thread by us
 
 ## Compile the code
 
-Compile the `COMForm`, `Form1`, and `FormManager` types into an assembly called `COMWinform.dll`. Register the assembly for COM interop by using one of the methods described in [Packaging an Assembly for COM](/dotnet/framework/interop/packaging-an-assembly-for-co). You can now use the assembly and its corresponding type library (.tlb) file in unmanaged applications. For example, you can use the type library as a reference in a Visual Basic 6.0 executable project.
+Compile the `COMForm`, `Form1`, and `FormManager` types into an assembly called `COMWinform.dll`. Register the assembly for COM interop by using one of the methods described in [Packaging an Assembly for COM](/dotnet/framework/interop/packaging-an-assembly-for-com). You can now use the assembly and its corresponding type library (.tlb) file in unmanaged applications. For example, you can use the type library as a reference in a Visual Basic 6.0 executable project.
 
 ## See also
 

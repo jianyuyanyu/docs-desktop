@@ -1,5 +1,6 @@
 ---
 title: "How to: Return a Dialog Box Result"
+description: Learn how to return a dialog box result in this article, by means of code examples in C# and Visual Basic.
 ms.date: "03/30/2017"
 dev_langs: 
   - "csharp"
@@ -9,9 +10,11 @@ helpviewer_keywords:
 ms.assetid: 4c5cf286-746b-4052-934d-d80cbf8acba3
 ---
 # How to: Return a Dialog Box Result
+
 This example shows how to retrieve the dialog result for a window that is opened by calling <xref:System.Windows.Window.ShowDialog%2A>.  
   
 ## Example  
+
  Before a dialog box closes, its <xref:System.Windows.Window.DialogResult%2A> property should be set with a <xref:System.Nullable%601><xref:System.Boolean> that indicates how the user closed the dialog box. This value is returned by <xref:System.Windows.Window.ShowDialog%2A> to allow client code to determine how the dialog box was closed and, consequently, how to process the result.  
   
 > [!NOTE]
@@ -21,4 +24,5 @@ This example shows how to retrieve the dialog result for a window that is opened
  [!code-vb[HOWTOWindowManagementSnippets#GetDialogResultCODE](~/samples/snippets/visualbasic/VS_Snippets_Wpf/HOWTOWindowManagementSnippets/visualbasic/mainwindow.xaml.vb#getdialogresultcode)]  
   
 ## .NET Framework Security  
+
  Calling <xref:System.Windows.Window.ShowDialog%2A> requires permission to use all windows and user input events without restriction.

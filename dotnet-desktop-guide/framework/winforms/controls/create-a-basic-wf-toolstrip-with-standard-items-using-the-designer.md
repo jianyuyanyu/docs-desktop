@@ -1,5 +1,6 @@
 ---
 title: Create a Basic ToolStrip with Standard Items Using the Designer
+description: Learn about how to create a basic Windows Forms ToolStrip with standard items using the designer.
 ms.date: "03/30/2017"
 helpviewer_keywords:
   - "ToolStrip control [Windows Forms], creating"
@@ -9,6 +10,7 @@ helpviewer_keywords:
 ms.assetid: 028deb1a-acf8-4911-979a-ba8431cd9d82
 ---
 # How to: Create a Basic Windows Forms ToolStrip with Standard Items Using the Designer
+
 The following procedure demonstrates how to create a <xref:System.Windows.Forms.ToolStrip> and add seven <xref:System.Windows.Forms.ToolStripButton> controls that represent typical tasks.
 
 ## To add standard items in the designer

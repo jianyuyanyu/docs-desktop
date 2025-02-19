@@ -1,5 +1,6 @@
 ---
 title: "How to: Use a ResourceDictionary to Manage Localizable String Resources"
+description: Learn how to use the ResourceDictionary to package and manage localizable string resources for Windows Presentation Foundation (WPF) applications.
 ms.date: "03/30/2017"
 dev_langs: 
   - "csharp"
@@ -12,11 +13,12 @@ helpviewer_keywords:
 ms.assetid: 19e7d9a5-20df-4ad3-b157-fe6515902e5e
 ---
 # How to: Use a ResourceDictionary to Manage Localizable String Resources
+
 This example shows how to use a <xref:System.Windows.ResourceDictionary> to package localizable string resources for Windows Presentation Foundation (WPF) applications.  
   
 ### To use a ResourceDictionary to manage localizable string resources  
   
-1. Create a <xref:System.Windows.ResourceDictionary> that contains the strings you would like to localize. The following code shows an example.  
+1. Create a <xref:System.Windows.ResourceDictionary> file in the root of your project named _StringResources.xaml_ that contains the strings you would like to localize. The following code shows an example.  
   
      [!code-xaml[StringLocalizationSample#StringResourceDictionary](~/samples/snippets/csharp/VS_Snippets_Wpf/StringLocalizationSample/CSharp/StringResources.xaml#stringresourcedictionary)]  
   

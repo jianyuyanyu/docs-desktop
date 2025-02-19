@@ -1,8 +1,9 @@
 ---
 title: "Dependency properties overview"
 description: Learn about the WPF property system and the capabilities of a dependency property, which is a property that's backed by the WPF property system.
-ms.date: "09/23/2021"
+ms.date: 10/24/2024
 ms.topic: overview
+ms.custom: update-template
 dev_langs: 
   - "csharp"
   - "vb"
@@ -20,8 +21,6 @@ helpviewer_keywords:
 # Dependency properties overview (WPF .NET)
 
 Windows Presentation Foundation (WPF) provides a set of services that can be used to extend the functionality of a type's [property](/dotnet/standard/base-types/common-type-system#properties). Collectively, these services are referred to as the WPF property system. A property that's backed by the WPF property system is known as a dependency property. This overview describes the WPF property system and the capabilities of a dependency property, including how to use existing dependency properties in XAML and in code. This overview also introduces specialized aspects of dependency properties, such as dependency property metadata, and how to create your own dependency property in a custom class.
-
-[!INCLUDE [desktop guide under construction](../../includes/desktop-guide-preview-note.md)]
 
 ## Prerequisites
 

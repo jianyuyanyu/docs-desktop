@@ -1,5 +1,6 @@
 ---
 title: "PrintPreviewDialog Control Overview"
+description: This article provides an overview of the PrintPreviewDialog control in Windows Forms, which is a pre-configured dialog box.
 ms.date: "01/08/2018"
 f1_keywords:
   - "PrintPreviewDialog"
@@ -32,7 +33,7 @@ For apps running on the .NET Framework 4.5.2, you can add the following key to t
 </appSettings>
 ```
 
-If the `EnablePrintPreviewOptimization` key is set to any other value, or if the key is not present, the optimization is not applied.
+If the `EnablePrintPreviewOptimization` key is set to any other value, or if the key is not present, the optimization is not applied. This key has no effect if the application is running on .NET Framework 4.6 or later.
 
 For apps running on the .NET Framework 4.6 or later versions, you can add the following switch to the [\<AppContextSwitchOverrides>](/dotnet/framework/configure-apps/file-schema/runtime/appcontextswitchoverrides-element) element in the [\<runtime>](/dotnet/framework/configure-apps/file-schema/runtime/index) section of your app config file:
 

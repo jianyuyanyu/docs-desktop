@@ -1,11 +1,12 @@
 ---
 title: How to create a template
-description: Learn how to create and reference a control template in Windows Presentation Foundation and .NET Core.
+description: Learn how to create and reference a control template in Windows Presentation Foundation and .NET. Templates can be implemented in a resource dictionary.
 author: adegeo
 ms.author: adegeo
-ms.date: 04/15/2021
+ms.date: 10/22/2024
 no-loc: ["<Window>", "<ControlTemplate>", "<Ellipse>", "<ContentPresenter>", "<Trigger>", "<Setter>", "<PropertyTrigger>", "<Grid>", "<VisualStateManager.VisualStateGroups>", "<VisualStateGroup>", "<VisualState>", "<Storyboard>", "SizeToContent", "MinWidth", "TargetType", "Title"]
 ms.topic: how-to
+ms.custom: update-template
 helpviewer_keywords: 
   - "control contract [WPF]"
   - "controls [WPF], visual structure changes"
@@ -13,13 +14,14 @@ helpviewer_keywords:
   - "skinning controls [WPF]"
   - "controls [WPF], appearance specified by state"
   - "templates [WPF], custom for existing controls"
+
+#customer intent: As a developer I want to create a template to a control.
+
 ---
 
 # How to create a template for a control (WPF.NET)
 
 With Windows Presentation Foundation (WPF), you can customize an existing control's visual structure and behavior with your own reusable template. Templates can be applied globally to your application, windows and pages, or directly to controls. Most scenarios that require you to create a new control can be covered by instead creating a new template for an existing control.
-
-[!INCLUDE [desktop guide under construction](../../includes/desktop-guide-preview-note.md)]
 
 In this article, you'll explore creating a new <xref:System.Windows.Controls.ControlTemplate> for the <xref:System.Windows.Controls.Button> control.
 
@@ -148,7 +150,7 @@ Run the project. Notice that when you move the mouse over the button, the color 
 
 ## Use a VisualState
 
-Visual states are defined and triggered by a control. For example, when the mouse is moved on top of the control, the `CommonStates.MouseOver` state is triggered. You can animate property changes based on the current state of the control. In the previous section, a **\<PropertyTrigger>** was used to change the foreground of the button to `AliceBlue` when the `IsMouseOver` property was `true`. Instead, create a visual state that animates the change of this color, providing a smooth transition. For more information about *VisualStates*, see [Styles and templates in WPF](styles-templates-overview.md#visual-states).
+Visual states are defined and triggered by a control. For example, when the mouse is moved on top of the control, the `CommonStates.MouseOver` state is triggered. You can animate property changes based on the current state of the control. In the previous section, a **\<PropertyTrigger>** was used to change the background of the button to `AliceBlue` when the `IsMouseOver` property was `true`. Instead, create a visual state that animates the change of this color, providing a smooth transition. For more information about *VisualStates*, see [Styles and templates in WPF](styles-templates-overview.md#visual-states).
 
 To convert the **\<PropertyTrigger>** to an animated visual state, First, remove the **\<ControlTemplate.Triggers>** element from your template.
 

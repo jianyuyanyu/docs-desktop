@@ -1,5 +1,6 @@
 ---
 title: Develop a Composite Control
+description: Learn more about developing a composite Windows Form control by combining other Windows Forms controls.
 ms.date: "03/30/2017"
 helpviewer_keywords:
   - "custom controls [Windows Forms], composite controls"
@@ -13,6 +14,10 @@ ms.assetid: d086f2a3-baa3-4e09-b40c-a5bb3cfc51a6
 You can develop a composite Windows Forms control by combining other Windows Forms controls. Composite controls that derive from <xref:System.Web.UI.UserControl> are called user controls. The base class, <xref:System.Windows.Forms.UserControl>, provides keyboard routing for the child controls, thus ensuring that child controls can receive focus. For an example of a user control, see the <xref:System.Windows.Forms.UserControl> sample in [How to: Apply Attributes in Windows Forms Controls](how-to-apply-attributes-in-windows-forms-controls.md).
 
 The Windows Forms designer in Visual Studio provides rich design-time support for authoring user controls.
+
+- [How to: Author Composite Controls](how-to-author-composite-controls.md)
+
+- [Walkthrough: Authoring a Composite Control with Visual C#](walkthrough-authoring-a-composite-control-with-visual-csharp.md)
 
 - [How to: Display a Control in the Choose Toolbox Items Dialog Box](how-to-display-a-control-in-the-choose-toolbox-items-dialog-box.md)
 
@@ -35,10 +40,6 @@ The Windows Forms designer in Visual Studio provides rich design-time support fo
 - [How to: Inherit from the UserControl Class](how-to-inherit-from-the-usercontrol-class.md)
 
 - [How to: Author Controls for Windows Forms](how-to-author-controls-for-windows-forms.md)
-
-- [How to: Author Composite Controls](how-to-author-composite-controls.md)
-
-- [Walkthrough: Authoring a Composite Control with Visual C#](walkthrough-authoring-a-composite-control-with-visual-csharp.md)
 
 - [Walkthrough: Creating a Windows Forms Control That Takes Advantage of Visual Studio Design-Time Features](creating-a-wf-control-design-time-features.md)
 

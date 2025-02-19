@@ -1,7 +1,8 @@
 ---
 title: "Read-only dependency properties"
 description: Learn about dependency properties in Windows Presentation Foundation (WPF) and how to create a read-only dependency property.
-ms.date: "11/29/2021"
+ms.date: 10/24/2024
+ms.custom: update-template
 dev_langs:
   - "csharp"
   - "vb"
@@ -14,8 +15,6 @@ helpviewer_keywords:
 # Read-only dependency properties (WPF .NET)
 
 You can use read-only dependency properties to prevent property values being set from outside your code. This article discusses existing read-only dependency properties and the scenarios and techniques for creating a custom read-only dependency property.
-
-[!INCLUDE [desktop guide under construction](../../includes/desktop-guide-preview-note.md)]
 
 ## Prerequisites
 

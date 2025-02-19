@@ -1,5 +1,6 @@
 ---
 title: "How to: Send Data to the Active MDI Child"
+description: Learn how to send data to the active multiple-document interface (MDI) application child window using the provided code example. 
 ms.date: "03/30/2017"
 dev_langs: 
   - "csharp"
@@ -12,6 +13,7 @@ helpviewer_keywords:
 ms.assetid: 1047d2fe-1235-46db-aad9-563aea1d743b
 ---
 # How to: Send Data to the Active MDI Child
+
 Often, within the context of [Multiple-Document Interface (MDI) Applications](multiple-document-interface-mdi-applications.md), you will need to send data to the active child window, such as when the user pastes data from the Clipboard into an MDI application.  
   
 > [!NOTE]

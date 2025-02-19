@@ -1,5 +1,6 @@
 ---
 title: "ColorConvertedBitmap Markup Extension"
+description: Learn about the ColorConvertedBitmap markup XAML extension of Windows Presentation Foundation (WPF).
 ms.date: "01/17/2022"
 ms.custom: devdivchpfy22
 helpviewer_keywords: 
@@ -8,6 +9,7 @@ helpviewer_keywords:
 ms.assetid: 18321c18-c898-4470-93fa-a702b47770c1
 ---
 # ColorConvertedBitmap Markup Extension
+
 Provides a way to specify a bitmap source that does not have an embedded profile. Color contexts / profiles are specified by URI, as is the image source URI.  
   
 ## XAML Attribute Usage  
@@ -25,6 +27,7 @@ Provides a way to specify a bitmap source that does not have an embedded profile
 |`destinationIIC`|The URI of the destination profile configuration|  
   
 ## Remarks  
+
  This markup extension is intended to fill a related set of image-source property values such as <xref:System.Windows.Media.Imaging.BitmapImage.UriSource%2A>.  
   
  Attribute syntax is the most common syntax used with this markup extension. `ColorConvertedBitmap` (or `ColorConvertedBitmapExtension`) cannot be used in property element syntax, because the values can only be set as values on the initial constructor, which is the string following the extension identifier.  

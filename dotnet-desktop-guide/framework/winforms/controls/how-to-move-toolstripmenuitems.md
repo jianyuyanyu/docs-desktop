@@ -1,5 +1,6 @@
 ---
 title: "How to: Move ToolStripMenuItems"
+description: Learn about how to move ToolStripMenuItems in Windows Forms, such as changing the position of menu items within a menu.
 ms.date: "03/30/2017"
 helpviewer_keywords:
   - "ToolStripMenuItems [Windows Forms], moving"
@@ -13,6 +14,7 @@ helpviewer_keywords:
 ms.assetid: cab9e03e-4edd-4c25-b3e3-bd1edc602bd9
 ---
 # How to: Move ToolStripMenuItems
+
 At design time, you can move entire top-level menus and their menu items to a different place on the <xref:System.Windows.Forms.MenuStrip>. You can also move individual menu items between top-level menus or change the position of menu items within a menu.
 
 ## To move a top-level menu and its menu items to another top-level location

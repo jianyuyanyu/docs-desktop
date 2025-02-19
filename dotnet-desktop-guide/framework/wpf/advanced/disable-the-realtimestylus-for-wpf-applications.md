@@ -1,5 +1,6 @@
 ---
 title: Disable the RealTimeStylus
+description: Learn how to disable the built-in stylus support in a Windows Presentation Foundation (WPF) application.
 ms.date: "03/30/2017"
 ms.assetid: e0525309-5ede-4782-837d-dbf6e5554859
 ---
@@ -10,6 +11,7 @@ Windows Presentation Foundation (WPF) has built in support for processing Window
  To disable WPF listening to stylus input, remove any tablet support added by the WPF window.  
   
 ## Example  
+
  The following sample code shows how to remove the default tablet platform support by using reflection.  
   
 ```csharp  

@@ -1,5 +1,6 @@
 ---
 title: "How To: Add a Custom Place to a File Dialog Box"
+description: The default open and save dialog boxes on Windows have a custom places area. Learn how to add a custom place.
 ms.date: "03/30/2017"
 dev_langs: 
   - "csharp"
@@ -11,6 +12,7 @@ helpviewer_keywords:
 ms.assetid: 63f6469b-59cd-40f6-9e61-8b5831856780
 ---
 # How To: Add a Custom Place to a File Dialog Box
+
 The default open and save dialog boxes on Windows Vista have an area on the left side of the dialog box titled **Favorite Links**. This area is called custom places. The <xref:System.Windows.Forms.OpenFileDialog> and <xref:System.Windows.Forms.SaveFileDialog> classes allow you to add folders to the <xref:System.Windows.Forms.FileDialog.CustomPlaces%2A> collection.  
   
 > [!NOTE]

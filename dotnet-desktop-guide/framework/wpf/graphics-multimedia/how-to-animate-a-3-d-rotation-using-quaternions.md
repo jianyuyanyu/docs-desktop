@@ -1,5 +1,6 @@
 ---
 title: "How to: Animate a 3D Rotation Using Quaternions"
+description: Learn about how to use QuaternionRotation3D to animate a rotation of a 3D object using quaternions.
 ms.date: "03/30/2017"
 helpviewer_keywords: 
   - "quaternions [WPF]"
@@ -8,6 +9,7 @@ helpviewer_keywords:
 ms.assetid: adca9cb1-066b-4de8-abbb-6b4007579ee7
 ---
 # How to: Animate a 3D Rotation Using Quaternions
+
 This example shows how to animate a rotation of a 3D object using quaternions.  
   
  The code below shows a <xref:System.Windows.Media.Media3D.QuaternionRotation3D> used as the value for the <xref:System.Windows.Media.Media3D.RotateTransform3D.Rotation%2A> property of a <xref:System.Windows.Media.Media3D.RotateTransform3D>.  
@@ -19,6 +21,7 @@ This example shows how to animate a rotation of a 3D object using quaternions.
  [!code-xaml[Animation3DGallery_snip#QuaternionAnimationExampleInline2](~/samples/snippets/csharp/VS_Snippets_Wpf/Animation3DGallery_snip/CS/QuaternionAnimationExample.xaml#quaternionanimationexampleinline2)]  
   
 ## Example  
+
  The following code shows the entire sample.  
   
  [!code-xaml[Animation3DGallery_snip#QuaternionAnimationExampleWholePage](~/samples/snippets/csharp/VS_Snippets_Wpf/Animation3DGallery_snip/CS/QuaternionAnimationExample.xaml#quaternionanimationexamplewholepage)]  

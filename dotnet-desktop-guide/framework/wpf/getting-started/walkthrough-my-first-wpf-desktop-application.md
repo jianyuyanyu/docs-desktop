@@ -18,7 +18,7 @@ ms.custom: "mvc,vs-dotnet"
 This article shows you how to develop a Windows Presentation Foundation (WPF) desktop application that includes the elements that are common to most WPF applications: Extensible Application Markup Language (XAML) markup, code-behind, application definitions, controls, layout, data binding, and styles. To develop the application, you'll use Visual Studio.
 
 > [!IMPORTANT]
-> This article was written for .NET Framework. To get started with .NET 5 or .NET 6, see [Tutorial: Create a new WPF app (WPF .NET)](/dotnet/desktop/wpf/get-started/create-app-visual-studio?view=netdesktop-5.0&preserve-view=true).
+> This article was written for .NET Framework. To get started with .NET 7, see [Tutorial: Create a new WPF app (WPF .NET)](/dotnet/desktop/wpf/get-started/create-app-visual-studio?view=netdesktop-7.0&preserve-view=true).
 
 In this tutorial, you learn how to:
 > [!div class="checklist"]
@@ -40,7 +40,7 @@ By the end of the tutorial, you'll have built a standalone Windows application t
 
 ## Prerequisites
 
-- [Visual Studio 2019](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019) with the **.NET desktop development** workload installed.
+- [Visual Studio 2019](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=learn.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019) with the **.NET desktop development** workload installed.
 
    For more information about installing the latest version of Visual Studio, see [Install Visual Studio](/visualstudio/install/install-visual-studio).
 

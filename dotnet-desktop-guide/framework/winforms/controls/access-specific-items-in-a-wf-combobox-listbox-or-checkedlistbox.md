@@ -1,5 +1,6 @@
 ---
 title: Access Specific Items in ComboBox, ListBox, or CheckedListBox Control
+description: Learn more about how to access specific items in ComboBox, ListBox, or CheckedListBox control in Windows Forms.
 ms.date: "03/30/2017"
 dev_langs: 
   - "csharp"
@@ -15,6 +16,7 @@ helpviewer_keywords:
 ms.assetid: 1216742f-bcf9-4ff8-8a62-d7c9053c2b96
 ---
 # How to: Access Specific Items in a Windows Forms ComboBox, ListBox, or CheckedListBox Control
+
 Accessing specific items in a Windows Forms combo box, list box, or checked list box is an essential task. It enables you to programmatically determine what is in a list, at any given position.  
   
 ### To access a specific item  

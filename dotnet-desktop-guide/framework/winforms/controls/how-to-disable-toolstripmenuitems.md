@@ -1,5 +1,6 @@
 ---
 title: "How to: Disable ToolStripMenuItems"
+description: Learn how to disable ToolStripMenuItems so that you can limit or broaden the commands a user is able to make. 
 ms.date: "03/30/2017"
 dev_langs: 
   - "csharp"
@@ -15,6 +16,7 @@ helpviewer_keywords:
 ms.assetid: bcc1da84-50fd-41d2-8475-103b581d5654
 ---
 # How to: Disable ToolStripMenuItems
+
 You can limit or broaden the commands a user may make by enabling and disabling menu items in response to user activities. Menu items are enabled by default when they are created, but this can be adjusted through the <xref:System.Windows.Forms.ToolStripMenuItem.Enabled%2A> property. You can manipulate this property at design time in the **Properties** window or programmatically by setting it in code.  
   
 ### To disable a menu item programmatically  

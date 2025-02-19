@@ -1,5 +1,6 @@
 ---
 title: "How to: Trigger Menu Events for Toolbar Buttons"
+description: Learn how to trigger menu events for toolbar buttons in Windows Forms, by means of code samples in Visual Basic, C#, and CPP.
 ms.date: "03/30/2017"
 dev_langs: 
   - "csharp"
@@ -13,6 +14,7 @@ helpviewer_keywords:
 ms.assetid: 98374f70-993d-4ca4-89fb-48fea6ce5b45
 ---
 # How to: Trigger Menu Events for Toolbar Buttons
+>
 > [!NOTE]
 > The <xref:System.Windows.Forms.ToolStrip> control replaces and adds functionality to the <xref:System.Windows.Forms.ToolBar> control; however, the <xref:System.Windows.Forms.ToolBar> control is retained for both backward compatibility and future use, if you choose.  
   

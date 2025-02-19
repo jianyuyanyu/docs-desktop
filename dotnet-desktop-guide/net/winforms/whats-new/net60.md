@@ -1,11 +1,12 @@
 ---
 title: What's new in Windows Forms .NET 6
 description: Learn about what's new in Windows Forms for .NET 6. Windows Forms. .NET provides new features and enhancements over .NET Framework.
-ms.date: 11/11/2021
-ms.topic: conceptual
+ms.date: 11/11/2024
+ms.topic: whats-new
+#customer intent: As a developer, I want to know what's changed so that I can remain up-to-date.
 ---
 
-# What's new for .NET 6 (Windows Forms .NET)
+# What's new in Windows Forms for .NET 6
 
 This article describes some of the new Windows Forms features and enhancements in .NET 6.
 
@@ -247,4 +248,4 @@ Microsoft UI Automation patterns work better with accessibility tools like Narra
 
 - [Breaking changes in Windows Forms](/dotnet/core/compatibility/winforms)
 - [Tutorial: Create a new WinForms app](../get-started/create-app-visual-studio.md)
-- [How to migrate a Windows Forms desktop app to .NET 6](../migration/index.md)
+- [How to upgrade a Windows Forms desktop app to .NET](../migration/index.md)

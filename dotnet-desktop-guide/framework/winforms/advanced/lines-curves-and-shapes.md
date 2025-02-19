@@ -1,5 +1,6 @@
 ---
 title: "Lines, Curves, and Shapes"
+description: Learn more about using the vector graphics portion of GDI+ to draw lines, draw curves, and draw and fill shapes with a selection of topics and tutorials.
 ms.date: "03/30/2017"
 helpviewer_keywords: 
   - "shapes [Windows Forms], filling"
@@ -10,9 +11,11 @@ helpviewer_keywords:
 ms.assetid: ace6e8d4-4e94-486b-9681-758a6667dc7f
 ---
 # Lines, Curves, and Shapes
+
 The vector graphics portion of GDI+ is used to draw lines, draw curves, and to draw and fill shapes.  
   
 ## In This Section  
+
  [Vector Graphics Overview](vector-graphics-overview.md)  
  Discusses vector graphics.  
   

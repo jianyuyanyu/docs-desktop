@@ -1,7 +1,8 @@
 ---
-title: "Preview events"
+title: "Preview events for composite controls"
 description: Learn about preview events in Windows Presentation Foundation (WPF) and how to use preview events for composite control event handling.
-ms.date: "03/09/2022"
+ms.date: 10/24/2024
+ms.custom: update-template
 dev_langs:
   - "csharp"
   - "vb"
@@ -16,8 +17,6 @@ helpviewer_keywords:
 # Preview events (WPF .NET)
 
 Preview events, also known as tunneling events, are routed events that traverse downward through the element tree from the application root element to the element that raised the event. The element that raises an event is reported as the <xref:System.Windows.RoutedEventArgs.Source> in the event data. Not all event scenarios support or require preview events. This article describes where preview events exist and how applications or components can interact with them. For information on how to create a preview event, see [How to create a custom routed event](how-to-create-a-custom-routed-event.md).
-
-[!INCLUDE [desktop guide under construction](../../includes/desktop-guide-preview-note.md)]
 
 ## Prerequisites
 

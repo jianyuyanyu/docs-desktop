@@ -1,14 +1,17 @@
 ---
 title: "How to: Use Templates to Style a ListView That Uses GridView"
+description: Learn how to use templates to specify the style of a ListView control that uses a GridView view mode in a Windows Presentation Foundation (WPF) application.
 ms.date: "03/30/2017"
 helpviewer_keywords: 
   - "ListView controls [WPF], styling"
 ms.assetid: 94bf964b-96c8-4bdf-a0c3-f5271b7cb565
 ---
 # How to: Use Templates to Style a ListView That Uses GridView
+
 This example shows how to use the <xref:System.Windows.DataTemplate> and <xref:System.Windows.Style> objects to specify the appearance of a <xref:System.Windows.Controls.ListView> control that uses a <xref:System.Windows.Controls.GridView> view mode.  
   
 ## Example  
+
  The following examples show <xref:System.Windows.Style> and <xref:System.Windows.DataTemplate> objects that customize the appearance of a column header for a <xref:System.Windows.Controls.GridViewColumn>.  
   
  [!code-xaml[ListViewTemplate#GridViewHeaderStyle](~/samples/snippets/csharp/VS_Snippets_Wpf/ListViewTemplate/CS/window1.xaml#gridviewheaderstyle)]  

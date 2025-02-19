@@ -1,5 +1,6 @@
 ---
 title: "How to: Determine Which TreeView Node Was Clicked"
+description: Learn how to determine which TreeView Node has been clicked so that you can respond appropriately.
 ms.date: "03/30/2017"
 dev_langs: 
   - "csharp"
@@ -14,6 +15,7 @@ helpviewer_keywords:
 ms.assetid: 06a4a191-d918-42af-9f49-956c93eff261
 ---
 # How to: Determine Which TreeView Node Was Clicked (Windows Forms)
+
 When working with the Windows Forms <xref:System.Windows.Forms.TreeView> control, a common task is to determine which node was clicked, and respond appropriately.  
   
 ### To determine which TreeView node was clicked  

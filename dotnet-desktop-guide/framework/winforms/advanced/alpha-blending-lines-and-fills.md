@@ -1,5 +1,6 @@
 ---
 title: "Alpha Blending Lines and Fills"
+description: Learn about how to use alpha blending to blend source and background color data associated with lines and fills in GDI+.
 ms.date: "03/30/2017"
 helpviewer_keywords: 
   - "lines [Windows Forms], adding transparency"
@@ -13,6 +14,7 @@ helpviewer_keywords:
 ms.assetid: 5440f48c-3ac9-44c3-b170-c1c110bdbab8
 ---
 # Alpha Blending Lines and Fills
+
 In GDI+, a color is a 32-bit value with 8 bits each for alpha, red, green, and blue. The alpha value indicates the transparency of the color — the extent to which the color is blended with the background color. Alpha values range from 0 through 255, where 0 represents a fully transparent color, and 255 represents a fully opaque color.  
   
  Alpha blending is a pixel-by-pixel blending of source and background color data. Each of the three components (red, green, blue) of a given source color is blended with the corresponding component of the background color according to the following formula:  
@@ -24,6 +26,7 @@ In GDI+, a color is a 32-bit value with 8 bits each for alpha, red, green, and b
  150 × 200 / 255 + 100 × (255 – 200) / 255 = 139  
   
 ## In This Section  
+
  [How to: Draw Opaque and Semitransparent Lines](how-to-draw-opaque-and-semitransparent-lines.md)  
  Shows how to draw alpha-blended lines.  
   

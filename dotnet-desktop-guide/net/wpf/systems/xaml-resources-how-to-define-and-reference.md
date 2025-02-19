@@ -3,7 +3,8 @@ title: "How to define and reference a resource"
 description: Learn how to define and reference Windows Presentation Foundation (WPF) resources through XAML and code.
 author: adegeo
 ms.author: adegeo
-ms.date: 04/02/2021
+ms.date: 10/24/2024
+ms.custom: update-template
 dev_langs:
   - "csharp"
   - "vb"
@@ -18,8 +19,6 @@ helpviewer_keywords:
 # How to define and reference a WPF resource (WPF .NET)
 
 This example shows how to define a resource and reference it. A resource can be referenced through XAML or through code.
-
-[!INCLUDE [desktop guide under construction](../../includes/desktop-guide-preview-note.md)]
 
 ## XAML example
 

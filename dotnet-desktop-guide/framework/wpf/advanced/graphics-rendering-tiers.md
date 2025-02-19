@@ -1,5 +1,6 @@
 ---
 title: "Graphics Rendering Tiers"
+description: Learn about graphics rendering tiers for devices running a Windows Presentation Foundation (WPF) application.
 ms.date: "03/30/2017"
 helpviewer_keywords: 
   - "graphics [WPF], performance"
@@ -33,7 +34,7 @@ A rendering tier defines a level of graphics hardware capability and performance
 
  The features of the graphics hardware determine the rendering capability of a WPF application. The WPF system defines three rendering tiers:  
   
-- **Rendering Tier 0** No graphics hardware acceleration. All graphics features use software acceleration. The DirectX version level is less than version 9.0.  
+- **Rendering Tier 0** No graphics hardware acceleration. All graphics features use software rendering. The DirectX version level is less than version 9.0.  
   
 - **Rendering Tier 1** Some graphics features use graphics hardware acceleration. The DirectX version level is greater than or equal to version 9.0.  
   

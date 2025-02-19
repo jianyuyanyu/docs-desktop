@@ -1,5 +1,6 @@
 ---
 title: "How to: Animate Material Properties in a 3D Scene"
+description: Learn how to animate the Opacity property of the Material applied to a 3D model in Windows Presentation Foundation (WPF).
 ms.date: "03/30/2017"
 helpviewer_keywords: 
   - "Material properties [WPF], animating in 3D scenes"
@@ -8,6 +9,7 @@ helpviewer_keywords:
 ms.assetid: 229fd6eb-7401-4992-b0c9-8b28de230c0f
 ---
 # How to: Animate Material Properties in a 3D Scene
+
 This example shows how to animate the <xref:System.Windows.Media.Brush.Opacity%2A> property of the <xref:System.Windows.Media.Media3D.Material> applied to a 3D model.  
   
  The following code example defines the <xref:System.Windows.Media.LinearGradientBrush> used as the <xref:System.Windows.Media.Media3D.Material> applied to the 3D object.  
@@ -19,6 +21,7 @@ This example shows how to animate the <xref:System.Windows.Media.Brush.Opacity%2
  [!code-xaml[Animation3DGallery_snip#AnimateMaterialExampleInline2](~/samples/snippets/csharp/VS_Snippets_Wpf/Animation3DGallery_snip/CS/AnimateMaterialExample.xaml#animatematerialexampleinline2)]  
   
 ## Example  
+
  The following code shows the entire sample.  
   
  [!code-xaml[Animation3DGallery_snip#AnimateMaterialExampleWholePage](~/samples/snippets/csharp/VS_Snippets_Wpf/Animation3DGallery_snip/CS/AnimateMaterialExample.xaml#animatematerialexamplewholepage)]  

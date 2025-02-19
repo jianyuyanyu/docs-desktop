@@ -1,5 +1,6 @@
 ---
 title: "How to: Get the Return Value of a Page Function"
+description: Learn how to get the return value of a page function, by means of the included examples in XAML, C#, and Visual Basic.
 ms.date: "03/30/2017"
 dev_langs: 
   - "csharp"
@@ -12,9 +13,11 @@ helpviewer_keywords:
 ms.assetid: 75470af6-256c-4c46-87e7-705080723a1c
 ---
 # How to: Get the Return Value of a Page Function
+
 This example shows how to get the result that is returned by a page function.  
   
 ## Example  
+
  To get the result that is returned from a page function, you need to handle <xref:System.Windows.Navigation.PageFunction%601.Return> of the page function you are calling.  
   
  [!code-xaml[HOWTOPageFunctionSnippets#CallAPageFunctionXAML](~/samples/snippets/csharp/VS_Snippets_Wpf/HOWTOPageFunctionSnippets/CSharp/CallingPage.xaml#callapagefunctionxaml)]  

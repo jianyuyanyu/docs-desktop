@@ -1,5 +1,6 @@
 ---
 title: "How to: Move a ToolStrip Out of a ToolStripContainer onto a Form"
+description: Learn about how to move a ToolStrip out of a ToolStripContainer and onto a form in Windows Forms via a 5-step process.
 ms.date: "03/30/2017"
 helpviewer_keywords:
   - "ToolStrip control [Windows Forms], parenting to forms"
@@ -7,6 +8,7 @@ helpviewer_keywords:
 ms.assetid: a1c94a7f-6fc5-4e4c-84cf-ff11dc573d33
 ---
 # How to: Move a ToolStrip Out of a ToolStripContainer onto a Form
+
 Use the following procedure to move a <xref:System.Windows.Forms.ToolStrip> out of a <xref:System.Windows.Forms.ToolStripContainer> onto a form.
 
 ## To move a ToolStrip out of a ToolStripContainer onto a form

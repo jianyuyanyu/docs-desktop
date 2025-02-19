@@ -3,7 +3,8 @@ title: "How to use application resources"
 description: Learn how to define and reference Windows Presentation Foundation (WPF) application-scoped resources in XAML.
 author: adegeo
 ms.author: adegeo
-ms.date: 04/08/2021
+ms.date: 10/24/2024
+ms.custom: update-template
 helpviewer_keywords:
   - "application resources [WPF]"
   - "resources [WPF], application resources"
@@ -13,8 +14,6 @@ helpviewer_keywords:
 # How to use application resources (WPF .NET)
 
 This example demonstrates how to use application-defined resources. Resources can be defined at the application level, generally through the _App.xaml_ or _Application.xaml_ file, whichever one your project uses. Resources that are defined by the application are globally scoped and accessible by all parts of the application.
-
-[!INCLUDE [desktop guide under construction](../../includes/desktop-guide-preview-note.md)]
 
 ## Example
 

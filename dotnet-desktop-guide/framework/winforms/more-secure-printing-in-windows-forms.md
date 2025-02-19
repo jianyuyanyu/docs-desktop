@@ -1,5 +1,6 @@
 ---
 title: "More Secure Printing"
+description: Learn about secure printing provided by the .NET Framework, which uses the PrintingPermission class to control access to printing capabilities.
 ms.date: "03/30/2017"
 helpviewer_keywords: 
   - "Windows Forms, printing"
@@ -9,6 +10,7 @@ helpviewer_keywords:
 ms.assetid: 48fd36ac-872f-4de0-902a-e52969cd4367
 ---
 # More Secure Printing in Windows Forms
+
 Windows Forms applications frequently include printing abilities. The .NET Framework uses the <xref:System.Drawing.Printing.PrintingPermission> class to control access to printing capabilities and the associated <xref:System.Drawing.Printing.PrintingPermissionLevel> enumeration value to indicate the level of access. By default, printing is enabled by default in the Local Intranet and Internet zones; however, the level of access is restricted in both zones. Whether your application can print, requires user interaction, or cannot print depends upon the permission value granted to the application. By default, the Local Intranet zone receives <xref:System.Drawing.Printing.PrintingPermissionLevel.DefaultPrinting> access and the Intranet zone receives <xref:System.Drawing.Printing.PrintingPermissionLevel.SafePrinting> access.  
   
  The following table shows the functionality available at each printing permission level.  

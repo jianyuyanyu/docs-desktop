@@ -1,5 +1,6 @@
 ---
 title: "How to: Use a Control Rendering Class"
+description: Learn how to use a control rendering class in Windows Forms, by means of code examples in CPP, C#, and Visual Basic.
 ms.date: "03/30/2017"
 dev_langs: 
   - "csharp"
@@ -12,14 +13,17 @@ helpviewer_keywords:
 ms.assetid: c0125e34-cd74-4c35-818c-3e40f462b0a3
 ---
 # How to: Use a Control Rendering Class
+
 This example demonstrates how to use the <xref:System.Windows.Forms.ComboBoxRenderer> class to render the drop-down arrow of a combo box control. The example consists of the <xref:System.Windows.Forms.Control.OnPaint%2A> method of a simple custom control. The <xref:System.Windows.Forms.ComboBoxRenderer.IsSupported%2A?displayProperty=nameWithType> property is used to determine whether visual styles are enabled in the client area of application windows. If visual styles are active, then the <xref:System.Windows.Forms.ComboBoxRenderer.DrawDropDownButton%2A?displayProperty=nameWithType> method will render the drop-down arrow with visual styles; otherwise, the <xref:System.Windows.Forms.ControlPaint.DrawComboButton%2A?displayProperty=nameWithType> method will render the drop-down arrow in the classic Windows style.  
   
 ## Example  
+
  [!code-cpp[System.Windows.Forms_ControlRenderer#10](~/samples/snippets/cpp/VS_Snippets_Winforms/System.Windows.Forms_ControlRenderer/cpp/form1.cpp#10)]
  [!code-csharp[System.Windows.Forms_ControlRenderer#10](~/samples/snippets/csharp/VS_Snippets_Winforms/System.Windows.Forms_ControlRenderer/CS/form1.cs#10)]
  [!code-vb[System.Windows.Forms_ControlRenderer#10](~/samples/snippets/visualbasic/VS_Snippets_Winforms/System.Windows.Forms_ControlRenderer/VB/form1.vb#10)]  
   
 ## Compiling the Code  
+
  This example requires:  
   
 - A custom control derived from the <xref:System.Windows.Forms.Control> class.  

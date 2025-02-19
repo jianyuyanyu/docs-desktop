@@ -8,6 +8,7 @@ helpviewer_keywords:
   - "hybrid applications [WPF interoperability]"
   - "data binding [WPF interoperability]"
 ms.assetid: 18997e71-745a-4425-9c69-2cbce1d8669e
+description: Learn how to use data binding in hybrid applications that include both Windows Forms and WPF controls.
 ---
 # Walkthrough: Binding to Data in Hybrid Applications
 
@@ -126,6 +127,9 @@ With Visual Studio, you can easily add a data source to your project. This proce
 2. In the **Data Source Configuration Wizard**, create a connection to the Northwind database by using a dataset. For more information, see [How to: Connect to Data in a Database](/previous-versions/visualstudio/visual-studio-2013/fxk9yw1t(v=vs.120)).
 
 3. When you are prompted by the **Data Source Configuration Wizard**, save the connection string as `NorthwindConnectionString`.
+
+   > [!IMPORTANT]
+   > Storing sensitive information, such as a password, within the connection string can affect the security of your application. Using Windows Authentication, also known as integrated security, is a more secure way to control access to a database. For more information, see [Protecting Connection Information](/dotnet/framework/data/adonet/protecting-connection-information).
 
 4. When you are prompted to choose your database objects, select the `Customers` and `Orders` tables, and name the generated data set `NorthwindDataSet`.
 

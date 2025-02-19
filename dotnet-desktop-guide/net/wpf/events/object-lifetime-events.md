@@ -1,7 +1,8 @@
 ---
 title: "Object lifetime events"
 description: Learn about the object lifetime events for framework-level elements in Windows Presentation Foundation (WPF).
-ms.date: "03/31/2022"
+ms.date: 10/24/2024
+ms.custom: update-template
 dev_langs:
   - "csharp"
   - "vb"
@@ -33,8 +34,6 @@ helpviewer_keywords:
 # Object lifetime events (WPF .NET)
 
 During their lifetime, all objects in Microsoft .NET managed code go through _creation_, _use_, and _destruction_ stages. Windows Presentation Foundation (WPF) provides notification of these stages, as they occur on an object, by raising lifetime events. For WPF framework-level elements (visual objects), WPF implements the <xref:System.Windows.FrameworkElement.Initialized>, <xref:System.Windows.FrameworkElement.Loaded>, and <xref:System.Windows.FrameworkElement.Unloaded> lifetime events. Developers can use these lifetime events as hooks for code-behind operations that involve elements. This article describes the lifetime events for visual objects, and then introduces other lifetime events that specifically apply to window elements, navigation hosts, or application objects.
-
-[!INCLUDE [desktop guide under construction](../../includes/desktop-guide-preview-note.md)]
 
 ## Prerequisites
 

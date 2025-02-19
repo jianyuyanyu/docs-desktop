@@ -3,14 +3,16 @@ title: Styles and templates
 description: Learn about XAML resources in Windows Presentation Foundation (WPF) for .NET. Understand the types of XAML resources related to styles and themes.
 author: adegeo
 ms.author: adegeo
-ms.date: 04/15/2021
+ms.date: 10/22/2024
 ms.topic: overview
+ms.custom: update-template
 dev_langs: 
   - "csharp"
   - "vb"
+#customer intent: As a developer I need to know about how styles and templates work.
 ---
 
-# Styles and templates (WPF .NET)
+# What are styles and templates? (WPF .NET)
 
 Windows Presentation Foundation (WPF) styling and templating refer to a suite of features that let developers and designers create visually compelling effects and a consistent appearance for their product. When customizing the appearance of an app, you want a strong styling and templating model that enables maintenance and sharing of appearance within and among apps. WPF provides that model.
 
@@ -19,8 +21,6 @@ Another feature of the WPF styling model is the separation of presentation and l
 This overview focuses on the styling and templating aspects of the app and doesn't discuss any data-binding concepts. For information about data binding, see [Data Binding Overview](../data/index.md).
 
 It's important to understand resources, which are what enable styles and templates to be reused. For more information about resources, see [Overview of XAML resources](../systems/xaml-resources-overview.md).
-
-[!INCLUDE [desktop guide under construction](../../includes/desktop-guide-preview-note.md)]
 
 ## Sample
 
@@ -174,14 +174,14 @@ Controls are always in a specific **state**. For example, when the mouse moves o
 
 | VisualState Name | VisualStateGroup Name | Description |
 | ---------------- | --------------------- | ----------- |
-| Normal           | CommonStates          | The default state. |
-| MouseOver        | CommonStates          | The mouse pointer is positioned over the control. |
-| Pressed          | CommonStates          | The control is pressed. |
-| Disabled         | CommonStates          | The control is disabled. |
-| Focused          | FocusStates           | The control has focus. |
-| Unfocused        | FocusStates           | The control does not have focus. |
+| `Normal`         | `CommonStates`        | The default state. |
+| `MouseOver`      | `CommonStates`        | The mouse pointer is positioned over the control. |
+| `Pressed`        | `CommonStates`        | The control is pressed. |
+| `Disabled`       | `CommonStates`        | The control is disabled. |
+| `Focused`        | `FocusStates`         | The control has focus. |
+| `Unfocused`      | `FocusStates`         | The control does not have focus. |
 
-By defining a <xref:System.Windows.VisualStateManager?displayProperty=fullName> on the root element of a control template, you can trigger animations when a control enters a specific state. The `VisualStateManager` declares which combinations of <xref:System.Windows.VisualStateGroup> and <xref:System.Windows.VisualState> to watch. When the control enters a watched state, the animation defined by the `VisaulStateManager` is started.
+By defining a <xref:System.Windows.VisualStateManager?displayProperty=fullName> on the root element of a control template, you can trigger animations when a control enters a specific state. The `VisualStateManager` declares which combinations of <xref:System.Windows.VisualStateGroup> and <xref:System.Windows.VisualState> to watch. When the control enters a watched state, the animation defined by the `VisualStateManager` is started.
 
 For example, the following XAML code watches the `CommonStates.MouseOver` state to animate the fill color of the element named `backgroundElement`. When the control returns to the `CommonStates.Normal` state, the fill color of the element named `backgroundElement` is restored.
 

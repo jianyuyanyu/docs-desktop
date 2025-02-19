@@ -1,5 +1,6 @@
 ---
 title: Hide Column Headers in DataGridView Control
+description: Learn how to hide column headers in DataGridView Control for instances when you don't want headers to appear.
 ms.date: "03/30/2017"
 dev_langs: 
   - "csharp"
@@ -11,6 +12,7 @@ helpviewer_keywords:
 ms.assetid: e4ad5f68-50d2-4b9e-93ee-9d622423a8ab
 ---
 # How to: Hide Column Headers in the Windows Forms DataGridView Control
+
 Sometimes you will want to display a <xref:System.Windows.Forms.DataGridView> without column headers. In the <xref:System.Windows.Forms.DataGridView> control, the <xref:System.Windows.Forms.DataGridView.ColumnHeadersVisible%2A> property value determines whether the column headers are displayed.  
   
 ### To hide the column headers  
@@ -21,6 +23,7 @@ Sometimes you will want to display a <xref:System.Windows.Forms.DataGridView> wi
      [!code-vb[System.Windows.Forms.DataGridViewMisc#062](~/samples/snippets/visualbasic/VS_Snippets_Winforms/System.Windows.Forms.DataGridViewMisc/VB/datagridviewmisc.vb#062)]  
   
 ## Compiling the Code  
+
  This example requires:  
   
 - A <xref:System.Windows.Forms.DataGridView> control named `dataGridView1`.  

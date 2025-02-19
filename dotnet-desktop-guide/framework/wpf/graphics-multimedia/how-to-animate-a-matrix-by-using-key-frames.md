@@ -1,5 +1,6 @@
 ---
 title: "How to: Animate a Matrix by Using Key Frames"
+description: Learn how to use the MatrixAnimationUsingKeyFrames class to animate the Matrix property of a MatrixTransform by using key frames.
 ms.date: "03/30/2017"
 helpviewer_keywords: 
   - "animation [WPF], Matrix properties with key frames"
@@ -8,9 +9,11 @@ helpviewer_keywords:
 ms.assetid: b851a4c7-ecb1-420e-9203-83e7afd037fd
 ---
 # How to: Animate a Matrix by Using Key Frames
+
 This example shows how to animate the <xref:System.Windows.Media.MatrixTransform.Matrix%2A> property of a <xref:System.Windows.Media.MatrixTransform> by using key frames.  
   
 ## Example  
+
  The following example uses the <xref:System.Windows.Media.Animation.MatrixAnimationUsingKeyFrames> class to animate the <xref:System.Windows.Media.MatrixTransform.Matrix%2A> property of a <xref:System.Windows.Media.MatrixTransform>. The example uses the <xref:System.Windows.Media.MatrixTransform> object to transform the appearance and position of a <xref:System.Windows.Controls.Button>.  
   
  This animation uses the <xref:System.Windows.Media.Animation.DiscreteMatrixKeyFrame> class to create two key frames and does the following with them:  

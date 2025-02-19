@@ -1,5 +1,6 @@
 ---
 title: "How to: Use a Color Matrix to Transform a Single Color"
+description: Learn how to use a color matrix to transform a single color using the System.Drawing.Image and System.Drawing.Bitmap objects.
 ms.date: "03/30/2017"
 dev_langs: 
   - "csharp"
@@ -10,6 +11,7 @@ helpviewer_keywords:
 ms.assetid: 44df4556-a433-49c0-ac0f-9a12063a5860
 ---
 # How to: Use a Color Matrix to Transform a Single Color
+
 GDI+ provides the <xref:System.Drawing.Image> and <xref:System.Drawing.Bitmap> classes for storing and manipulating images. <xref:System.Drawing.Image> and <xref:System.Drawing.Bitmap> objects store the color of each pixel as a 32-bit number: 8 bits each for red, green, blue, and alpha. Each of the four components is a number from 0 through 255, with 0 representing no intensity and 255 representing full intensity. The alpha component specifies the transparency of the color: 0 is fully transparent, and 255 is fully opaque.  
   
  A color vector is a 4-tuple of the form (red, green, blue, alpha). For example, the color vector (0, 255, 0, 255) represents an opaque color that has no red or blue, but has green at full intensity.  
@@ -28,7 +30,7 @@ GDI+ provides the <xref:System.Drawing.Image> and <xref:System.Drawing.Bitmap> c
   
  ![Screenshot of a transformation multiplication matrix.](./media/how-to-use-a-color-matrix-to-transform-a-single-color/multiplication-color-matrix.gif)
   
- The elements of a color matrix are indexed (zero-based) by row and then column. For example, the entry in the fifth row and third column of matrix M is denoted by M[4][2].  
+ The elements of a color matrix are indexed (zero-based) by row and then column. For example, the entry in the fifth row and third column of matrix `M` is denoted by `M[4][2]`.  
   
  The 5×5 identity matrix (shown in the following illustration) has 1s on the diagonal and 0s everywhere else. If you multiply a color vector by the identity matrix, the color vector does not change. A convenient way to form the matrix of a color transformation is to start with the identity matrix and make a small change that produces the desired transformation.  
   
@@ -37,6 +39,7 @@ GDI+ provides the <xref:System.Drawing.Image> and <xref:System.Drawing.Bitmap> c
  For a more detailed discussion of matrices and transformations, see [Coordinate Systems and Transformations](coordinate-systems-and-transformations.md).  
   
 ## Example  
+
  The following example takes an image that is all one color (0.2, 0.0, 0.4, 1.0) and applies the transformation described in the preceding paragraphs.  
   
  The following illustration shows the original image on the left and the transformed image on the right.  
@@ -55,6 +58,7 @@ GDI+ provides the <xref:System.Drawing.Image> and <xref:System.Drawing.Bitmap> c
  [!code-vb[System.Drawing.RecoloringImages#21](~/samples/snippets/visualbasic/VS_Snippets_Winforms/System.Drawing.RecoloringImages/VB/Class1.vb#21)]  
   
 ## Compiling the Code  
+
  The preceding example is designed for use with Windows Forms, and it requires <xref:System.Windows.Forms.PaintEventArgs> `e`, which is a parameter of the <xref:System.Windows.Forms.Control.Paint> event handler.  
   
 ## See also

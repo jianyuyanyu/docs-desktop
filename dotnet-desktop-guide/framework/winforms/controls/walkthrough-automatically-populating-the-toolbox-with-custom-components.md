@@ -6,6 +6,7 @@ helpviewer_keywords:
   - "Toolbox [Windows Forms], populating"
   - "custom components [Windows Forms], adding to Toolbox"
 ms.assetid: 2fa1e3e8-6b9f-42b2-97c0-2be57444dba4
+description: Learn how a custom component automatically appears in the Toolbox once the component is built by a user.
 ---
 # Walkthrough: Automatically Populating the Toolbox with Custom Components
 
@@ -17,8 +18,7 @@ If your components are defined by a project in the currently open solution, they
 
 - Does not have <xref:System.ComponentModel.DesignTimeVisibleAttribute> set to `false`.
 
-> [!NOTE]
-> The **Toolbox** does not follow reference chains, so it won't display items that are not built by a project in your solution.
+[!INCLUDE [visual-studio-designer-net](../includes/visual-studio-designer-net.md)]
 
 This walkthrough demonstrates how a custom component automatically appears in the **Toolbox** once the component is built. Tasks illustrated in this walkthrough include:
 
@@ -31,6 +31,9 @@ This walkthrough demonstrates how a custom component automatically appears in th
 - Unloading and reloading a custom component.
 
 When you are finished, you will see that the **Toolbox** is populated with a component that you have created.
+
+> [!NOTE]
+> The **Toolbox** only displays components from libraries directly referenced by your project or components defined by a project in the solution.
 
 ## Create the project
 

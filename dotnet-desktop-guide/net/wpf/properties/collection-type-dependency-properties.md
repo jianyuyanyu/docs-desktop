@@ -1,7 +1,8 @@
 ---
 title: "Collection-type dependency properties"
 description: "Learn how to implement a dependency property that's a collection type and how to assign a default collection value."
-ms.date: "10/06/2021"
+ms.date: 10/24/2024
+ms.custom: update-template
 dev_langs:
   - "csharp"
   - "vb"
@@ -16,8 +17,6 @@ helpviewer_keywords:
 # Collection-type dependency properties (WPF .NET)
 
 This article provides guidance and suggested patterns for implementing a dependency property that's a collection type.
-
-[!INCLUDE [desktop guide under construction](../../includes/desktop-guide-preview-note.md)]
 
 ## Prerequisites
 

@@ -1,5 +1,6 @@
 ---
 title: "How to: Rotate an Object by Using a Geometric Path"
+description: Learn how to use DoubleAnimationUsingPath objects to rotate an object along a geometric path that is defined by a PathGeometry object.
 ms.date: "03/30/2017"
 dev_langs: 
   - "csharp"
@@ -10,9 +11,11 @@ helpviewer_keywords:
 ms.assetid: cb31ca4d-f05a-4c6b-9a18-4b6faaf38d45
 ---
 # How to: Rotate an Object by Using a Geometric Path
+
 This example shows how to rotate (pivot) an object along a geometric path that is defined by a <xref:System.Windows.Media.PathGeometry> object.  
   
 ## Example  
+
  The following example uses three <xref:System.Windows.Media.Animation.DoubleAnimationUsingPath> objects to move a rectangle along a geometric path.  
   
 - The first <xref:System.Windows.Media.Animation.DoubleAnimationUsingPath> animates a <xref:System.Windows.Media.RotateTransform> that is applied to the rectangle. The animation generates angle values. It makes the rectangle rotate (pivot) along the contours of the path.  

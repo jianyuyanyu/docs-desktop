@@ -1,5 +1,6 @@
 ---
 title: "Expander Styles and Templates"
+description: Learn about the styles and templates for the Expander control. You can modify the default ControlTemplate to give the control a unique appearance.
 ms.date: "03/30/2017"
 helpviewer_keywords: 
   - "styles [WPF], Expander"
@@ -11,12 +12,15 @@ helpviewer_keywords:
 ms.assetid: da2e5a1c-5230-4c21-98a5-59c7895facd7
 ---
 # Expander Styles and Templates
+
 This topic describes the styles and templates for the <xref:System.Windows.Controls.Expander> control. You can modify the default <xref:System.Windows.Controls.ControlTemplate> to give the control a unique appearance. For more information, see [Create a template for a control](how-to-create-apply-template.md).  
   
 ## Expander Parts  
+
  The <xref:System.Windows.Controls.Expander> control does not have any named parts.  
   
 ## Expander States  
+
  The following table lists the visual states for the <xref:System.Windows.Controls.Expander> control.  
   
 |VisualState Name|VisualStateGroup Name|Description|  
@@ -36,17 +40,12 @@ This topic describes the styles and templates for the <xref:System.Windows.Contr
 |InvalidFocused|ValidationStates|The <xref:System.Windows.Controls.Validation.HasError%2A?displayProperty=nameWithType> attached property is `true` has the control has focus.|  
 |InvalidUnfocused|ValidationStates|The <xref:System.Windows.Controls.Validation.HasError%2A?displayProperty=nameWithType> attached property is `true` has the control does not have focus.|  
   
-## Expander ControlTemplate Example  
- The following example shows how to define a <xref:System.Windows.Controls.ControlTemplate> for the <xref:System.Windows.Controls.Expander> control.  
-  
- [!code-xaml[ControlTemplateExamples#Expander](~/samples/snippets/csharp/VS_Snippets_Wpf/ControlTemplateExamples/CS/resources/expander.xaml#expander)]  
-  
- The preceding example uses one or more of the following resources.  
-  
- [!code-xaml[ControlTemplateExamples#Resources](~/samples/snippets/csharp/VS_Snippets_Wpf/ControlTemplateExamples/CS/resources/shared.xaml#resources)]  
-  
- For the complete sample, see [Styling with ControlTemplates Sample](https://github.com/Microsoft/WPF-Samples/tree/master/Styles%20&%20Templates/IntroToStylingAndTemplating).  
-  
+## Expander ControlTemplate
+
+The following example is a copy of the default template for a <xref:System.Windows.Controls.Expander> control:
+
+:::code language="xaml" source="./snippets/shared/templates/ExpanderTemplate.xaml":::
+
 ## See also
 
 - <xref:System.Windows.FrameworkElement.Style%2A>
